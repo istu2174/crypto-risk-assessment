@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend API untuk sistem penilaian risiko portofolio cryptocurrency",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "prisma generate && prisma migrate deploy",
+    "start": "node src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "keywords": [],
+  "author": "Istu Amlu Baihaqqi",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/eth-sig-util": "^8.2.0",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "axios": "^1.16.1",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "node-cache": "^5.1.2",
+    "pg": "^8.21.0",
+    "tweetnacl": "^1.0.3",
+    "winston": "^3.19.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.8.0",
+    "supertest": "^7.2.2"
+  }
+}

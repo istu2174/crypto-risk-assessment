@@ -1,0 +1,1562 @@
+[
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "ecosystem": "Bitcoin",
+    "marketCap": 1279214448959,
+    "volume24h": 21205645768,
+    "volatility": 0.01392614183749569,
+    "liquidityRatio": 0.016577084307683315,
+    "fetchedAt": "2026-08-12T09:09:35.855Z"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "ecosystem": "Ethereum",
+    "marketCap": 228146564161,
+    "volume24h": 6690094821,
+    "volatility": 0.020357438336276987,
+    "liquidityRatio": 0.02932367114798577,
+    "fetchedAt": "2026-08-12T09:09:38.744Z"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether",
+    "ecosystem": "Ethereum",
+    "marketCap": 183011034469,
+    "volume24h": 34369064433,
+    "volatility": 0.0001477556968784973,
+    "liquidityRatio": 0.18779777149897336,
+    "fetchedAt": "2026-08-12T09:09:41.710Z"
+  },
+  {
+    "symbol": "BNB",
+    "name": "BNB",
+    "ecosystem": "Ethereum",
+    "marketCap": 81276767538,
+    "volume24h": 841495913,
+    "volatility": 0.012766750814907345,
+    "liquidityRatio": 0.010353461862352836,
+    "fetchedAt": "2026-08-12T09:09:44.905Z"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USDC",
+    "ecosystem": "Ethereum",
+    "marketCap": 72098273871,
+    "volume24h": 8437032494,
+    "volatility": 0.00009830515074155874,
+    "liquidityRatio": 0.11702128277156462,
+    "fetchedAt": "2026-08-12T09:09:47.804Z"
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "ecosystem": "Solana",
+    "marketCap": 44363246352,
+    "volume24h": 1317904721,
+    "volatility": 0.017237374644586176,
+    "liquidityRatio": 0.029707129873749325,
+    "fetchedAt": "2026-08-12T09:09:50.692Z"
+  },
+  {
+    "symbol": "USDS",
+    "name": "USDS",
+    "ecosystem": "Ethereum",
+    "marketCap": 9798350305,
+    "volume24h": 165425833,
+    "volatility": 0.00011720760514308781,
+    "liquidityRatio": 0.01688302906618728,
+    "fetchedAt": "2026-08-12T09:09:53.605Z"
+  },
+  {
+    "symbol": "LEO",
+    "name": "LEO Token",
+    "ecosystem": "Ethereum",
+    "marketCap": 8393227886,
+    "volume24h": 757919,
+    "volatility": 0.008464563357375783,
+    "liquidityRatio": 0.00009030125361712357,
+    "fetchedAt": "2026-08-12T09:09:56.579Z"
+  },
+  {
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "ecosystem": "Ethereum",
+    "marketCap": 6542472282,
+    "volume24h": 343741559,
+    "volatility": 0.025078116772992168,
+    "liquidityRatio": 0.05254000998150503,
+    "fetchedAt": "2026-08-12T09:09:59.524Z"
+  },
+  {
+    "symbol": "WBT",
+    "name": "WhiteBIT Coin",
+    "ecosystem": "Ethereum",
+    "marketCap": 6518811948,
+    "volume24h": 53592110,
+    "volatility": 0.013455421145699817,
+    "liquidityRatio": 0.008221146802131988,
+    "fetchedAt": "2026-08-12T09:10:11.506Z"
+  },
+  {
+    "symbol": "DAI",
+    "name": "Dai",
+    "ecosystem": "Ethereum",
+    "marketCap": 4567222683,
+    "volume24h": 152863037,
+    "volatility": 0.00017846043753362665,
+    "liquidityRatio": 0.03346958263475589,
+    "fetchedAt": "2026-08-12T09:10:14.498Z"
+  },
+  {
+    "symbol": "USD1",
+    "name": "USD1",
+    "ecosystem": "Ethereum",
+    "marketCap": 4020260596,
+    "volume24h": 747401370,
+    "volatility": 0.00021947554547881396,
+    "liquidityRatio": 0.185908687298439,
+    "fetchedAt": "2026-08-12T09:10:17.506Z"
+  },
+  {
+    "symbol": "USDE",
+    "name": "Ethena USDe",
+    "ecosystem": "Ethereum",
+    "marketCap": 3949613368,
+    "volume24h": 24877700,
+    "volatility": 0.00023932878235071004,
+    "liquidityRatio": 0.006298768431756027,
+    "fetchedAt": "2026-08-12T09:10:20.487Z"
+  },
+  {
+    "symbol": "GRAM",
+    "name": "Gram (prev. Toncoin)",
+    "ecosystem": "Ethereum",
+    "marketCap": 3701572541,
+    "volume24h": 25267332,
+    "volatility": 0.023552190509855325,
+    "liquidityRatio": 0.0068261074773301325,
+    "fetchedAt": "2026-08-12T09:10:23.475Z"
+  },
+  {
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "ecosystem": "Ethereum",
+    "marketCap": 3488796001,
+    "volume24h": 281605258,
+    "volatility": 0.00036353435467693294,
+    "liquidityRatio": 0.08071703186981496,
+    "fetchedAt": "2026-08-12T09:10:26.370Z"
+  },
+  {
+    "symbol": "USYC",
+    "name": "Circle USYC",
+    "ecosystem": "Ethereum",
+    "marketCap": 3005759470,
+    "volume24h": 5666.64,
+    "volatility": 0.0010456004037679174,
+    "liquidityRatio": 0.0000018852606326480277,
+    "fetchedAt": "2026-08-12T09:10:29.270Z"
+  },
+  {
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "ecosystem": "Ethereum",
+    "marketCap": 2797306732,
+    "volume24h": 134768354,
+    "volatility": 0.00018006951327698682,
+    "liquidityRatio": 0.04817789642383773,
+    "fetchedAt": "2026-08-12T09:10:32.224Z"
+  },
+  {
+    "symbol": "BUIDL",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 2741921547,
+    "volume24h": 0,
+    "volatility": 7.021666937153402e-17,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:10:35.216Z"
+  },
+  {
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "ecosystem": "Ethereum",
+    "marketCap": 2687011781,
+    "volume24h": 156686896,
+    "volatility": 0.01247753528656719,
+    "liquidityRatio": 0.05831269408937512,
+    "fetchedAt": "2026-08-12T09:10:38.218Z"
+  },
+  {
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "ecosystem": "Ethereum",
+    "marketCap": 2621731136,
+    "volume24h": 60009568,
+    "volatility": 0.042260107323427346,
+    "liquidityRatio": 0.022889291421223753,
+    "fetchedAt": "2026-08-12T09:10:41.202Z"
+  },
+  {
+    "symbol": "CRO",
+    "name": "Cronos",
+    "ecosystem": "Ethereum",
+    "marketCap": 2214092287,
+    "volume24h": 5200604,
+    "volatility": 0.02509269453634617,
+    "liquidityRatio": 0.0023488650543318566,
+    "fetchedAt": "2026-08-12T09:10:44.190Z"
+  },
+  {
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "ecosystem": "Ethereum",
+    "marketCap": 2203260335,
+    "volume24h": 278798801,
+    "volatility": 0.03866060591301358,
+    "liquidityRatio": 0.12653920037098113,
+    "fetchedAt": "2026-08-12T09:10:47.154Z"
+  },
+  {
+    "symbol": "USDY",
+    "name": "Ondo US Dollar Yield",
+    "ecosystem": "Ethereum",
+    "marketCap": 2137715847,
+    "volume24h": 1478715,
+    "volatility": 0.0015873268550113005,
+    "liquidityRatio": 0.0006917266399438354,
+    "fetchedAt": "2026-08-12T09:10:50.550Z"
+  },
+  {
+    "symbol": "OKB",
+    "name": "OKB",
+    "ecosystem": "Ethereum",
+    "marketCap": 2005073189,
+    "volume24h": 17511816,
+    "volatility": 0.014544148805271554,
+    "liquidityRatio": 0.008733754007619918,
+    "fetchedAt": "2026-08-12T09:10:53.546Z"
+  },
+  {
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "ecosystem": "Ethereum",
+    "marketCap": 1921808547,
+    "volume24h": 114885003,
+    "volatility": 0.012798738077021801,
+    "liquidityRatio": 0.059779629547042495,
+    "fetchedAt": "2026-08-12T09:10:56.481Z"
+  },
+  {
+    "symbol": "WLFI",
+    "name": "World Liberty Financial",
+    "ecosystem": "Ethereum",
+    "marketCap": 1744380506,
+    "volume24h": 28427560,
+    "volatility": 0.014193604779776284,
+    "liquidityRatio": 0.016296650817995327,
+    "fetchedAt": "2026-08-12T09:10:59.460Z"
+  },
+  {
+    "symbol": "HTX",
+    "name": "HTX DAO",
+    "ecosystem": "Ethereum",
+    "marketCap": 1637625898,
+    "volume24h": 29919190,
+    "volatility": 0.007267263042090398,
+    "liquidityRatio": 0.018269856404041798,
+    "fetchedAt": "2026-08-12T09:11:02.440Z"
+  },
+  {
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "ecosystem": "Ethereum",
+    "marketCap": 1618110616,
+    "volume24h": 68788037,
+    "volatility": 0.04717823055634233,
+    "liquidityRatio": 0.04251133162332581,
+    "fetchedAt": "2026-08-12T09:11:05.377Z"
+  },
+  {
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "ecosystem": "Ethereum",
+    "marketCap": 1573606289,
+    "volume24h": 130368525,
+    "volatility": 0.00013813656624924006,
+    "liquidityRatio": 0.08284697761525024,
+    "fetchedAt": "2026-08-12T09:11:08.322Z"
+  },
+  {
+    "symbol": "USDD",
+    "name": "USDD",
+    "ecosystem": "Ethereum",
+    "marketCap": 1543386943,
+    "volume24h": 97958324,
+    "volatility": 0.00040861232042462687,
+    "liquidityRatio": 0.06346971149671052,
+    "fetchedAt": "2026-08-12T09:11:11.558Z"
+  },
+  {
+    "symbol": "MNT",
+    "name": "Mantle",
+    "ecosystem": "Ethereum",
+    "marketCap": 1424310902,
+    "volume24h": 22762002,
+    "volatility": 0.019844473201963968,
+    "liquidityRatio": 0.015981062819948842,
+    "fetchedAt": "2026-08-12T09:11:14.511Z"
+  },
+  {
+    "symbol": "AAVE",
+    "name": "Aave",
+    "ecosystem": "Ethereum",
+    "marketCap": 1373706481,
+    "volume24h": 134530814,
+    "volatility": 0.03420984036158494,
+    "liquidityRatio": 0.09793272133510449,
+    "fetchedAt": "2026-08-12T09:11:17.480Z"
+  },
+  {
+    "symbol": "USDF",
+    "name": "Falcon USD",
+    "ecosystem": "Ethereum",
+    "marketCap": 1336941819,
+    "volume24h": 820160,
+    "volatility": 0.0004228188415357932,
+    "liquidityRatio": 0.0006134597544517381,
+    "fetchedAt": "2026-08-12T09:11:20.430Z"
+  },
+  {
+    "symbol": "MORPHO",
+    "name": "Morpho",
+    "ecosystem": "Ethereum",
+    "marketCap": 1287987542,
+    "volume24h": 14712832,
+    "volatility": 0.02793938828831352,
+    "liquidityRatio": 0.011423116699680004,
+    "fetchedAt": "2026-08-12T09:11:23.359Z"
+  },
+  {
+    "symbol": "SKY",
+    "name": "Sky",
+    "ecosystem": "Ethereum",
+    "marketCap": 1240814840,
+    "volume24h": 9918155,
+    "volatility": 0.02169648789175565,
+    "liquidityRatio": 0.007993259493898381,
+    "fetchedAt": "2026-08-12T09:11:26.747Z"
+  },
+  {
+    "symbol": "ICP",
+    "name": "Internet Computer",
+    "ecosystem": "Ethereum",
+    "marketCap": 1236352247,
+    "volume24h": 42762024,
+    "volatility": 0.022039159670022592,
+    "liquidityRatio": 0.03458724979370705,
+    "fetchedAt": "2026-08-12T09:11:29.677Z"
+  },
+  {
+    "symbol": "U",
+    "name": "United Stables",
+    "ecosystem": "Ethereum",
+    "marketCap": 1221734236,
+    "volume24h": 99968409,
+    "volatility": 0.00015447117398127233,
+    "liquidityRatio": 0.08182500420656133,
+    "fetchedAt": "2026-08-12T09:11:32.623Z"
+  },
+  {
+    "symbol": "WLD",
+    "name": "Worldcoin",
+    "ecosystem": "Ethereum",
+    "marketCap": 1207218664,
+    "volume24h": 119125715,
+    "volatility": 0.03809892653289923,
+    "liquidityRatio": 0.09867782743292644,
+    "fetchedAt": "2026-08-12T09:11:35.703Z"
+  },
+  {
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "ecosystem": "Ethereum",
+    "marketCap": 1186444468,
+    "volume24h": 102141393,
+    "volatility": 0.025810831294809832,
+    "liquidityRatio": 0.08609032765956645,
+    "fetchedAt": "2026-08-12T09:11:38.644Z"
+  },
+  {
+    "symbol": "BGB",
+    "name": "Bitget Token",
+    "ecosystem": "Ethereum",
+    "marketCap": 1176384498,
+    "volume24h": 5377879,
+    "volatility": 0.01470638723971508,
+    "liquidityRatio": 0.004571531679602258,
+    "fetchedAt": "2026-08-12T09:11:41.635Z"
+  },
+  {
+    "symbol": "USDGO",
+    "name": "USDGO",
+    "ecosystem": "Solana",
+    "marketCap": 1160112886,
+    "volume24h": 14886649,
+    "volatility": 0.00010176821752989979,
+    "liquidityRatio": 0.012832069343982788,
+    "fetchedAt": "2026-08-12T09:11:44.592Z"
+  },
+  {
+    "symbol": "EURSAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+    "ecosystem": "Ethereum",
+    "marketCap": 1078764594,
+    "volume24h": 0,
+    "volatility": 0.002528657079229175,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:11:47.573Z"
+  },
+  {
+    "symbol": "PUMP",
+    "name": "Pump.fun",
+    "ecosystem": "Solana",
+    "marketCap": 1036164883,
+    "volume24h": 94368965,
+    "volatility": 0.06398562296191852,
+    "liquidityRatio": 0.09107523961512214,
+    "fetchedAt": "2026-08-12T09:11:50.645Z"
+  },
+  {
+    "symbol": "BCAP",
+    "name": "Blockchain Capital",
+    "ecosystem": "Ethereum",
+    "marketCap": 967341704,
+    "volume24h": 0,
+    "volatility": 0.00009524097807073947,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:11:53.638Z"
+  },
+  {
+    "symbol": "USTB",
+    "name": "Invesco Short Duration US Government Securities Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 958208195,
+    "volume24h": 0,
+    "volatility": 0.00009377093834635403,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:11:56.745Z"
+  },
+  {
+    "symbol": "EUTBL",
+    "name": "Spiko EU T-Bills Money Market Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 928178286,
+    "volume24h": 0,
+    "volatility": 0.0025254981883940106,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:11:59.725Z"
+  },
+  {
+    "symbol": "ENA",
+    "name": "Ethena",
+    "ecosystem": "Ethereum",
+    "marketCap": 875608852,
+    "volume24h": 96169343,
+    "volatility": 0.040038309561282626,
+    "liquidityRatio": 0.1098313964966631,
+    "fetchedAt": "2026-08-12T09:12:03.091Z"
+  },
+  {
+    "symbol": "JTRSY",
+    "name": "Janus Henderson Anemoy Treasury Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 871962222,
+    "volume24h": 0,
+    "volatility": 0.00009347153164124547,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:12:06.076Z"
+  },
+  {
+    "symbol": "QNT",
+    "name": "Quant",
+    "ecosystem": "Ethereum",
+    "marketCap": 835906333,
+    "volume24h": 21205118,
+    "volatility": 0.013224189700463369,
+    "liquidityRatio": 0.0253678159416457,
+    "fetchedAt": "2026-08-12T09:12:09.050Z"
+  },
+  {
+    "symbol": "POL",
+    "name": "POL (ex-MATIC)",
+    "ecosystem": "Ethereum",
+    "marketCap": 804515676,
+    "volume24h": 27589108,
+    "volatility": 0.01772859803484407,
+    "liquidityRatio": 0.034292815942594514,
+    "fetchedAt": "2026-08-12T09:12:12.055Z"
+  },
+  {
+    "symbol": "NEXO",
+    "name": "NEXO",
+    "ecosystem": "Ethereum",
+    "marketCap": 718890213,
+    "volume24h": 3531143,
+    "volatility": 0.013990836162691082,
+    "liquidityRatio": 0.004911936393269552,
+    "fetchedAt": "2026-08-12T09:12:15.045Z"
+  },
+  {
+    "symbol": "GT",
+    "name": "Gate",
+    "ecosystem": "Ethereum",
+    "marketCap": 715367183,
+    "volume24h": 805131,
+    "volatility": 0.009306649627411725,
+    "liquidityRatio": 0.0011254793609955128,
+    "fetchedAt": "2026-08-12T09:12:18.000Z"
+  },
+  {
+    "symbol": "GHO",
+    "name": "GHO",
+    "ecosystem": "Ethereum",
+    "marketCap": 697807999,
+    "volume24h": 10724659,
+    "volatility": 0.000323954220901744,
+    "liquidityRatio": 0.015369068591029435,
+    "fetchedAt": "2026-08-12T09:12:20.952Z"
+  },
+  {
+    "symbol": "JAAA",
+    "name": "Janus Henderson Anemoy AAA CLO Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 693809028,
+    "volume24h": 0,
+    "volatility": 0.00013099005244604863,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:12:23.987Z"
+  },
+  {
+    "symbol": "RENDER",
+    "name": "Render",
+    "ecosystem": "Ethereum",
+    "marketCap": 652176595,
+    "volume24h": 25168542,
+    "volatility": 0.018433267862172552,
+    "liquidityRatio": 0.0385916056984535,
+    "fetchedAt": "2026-08-12T09:12:26.971Z"
+  },
+  {
+    "symbol": "BTW",
+    "name": "Bitway",
+    "ecosystem": "Ethereum",
+    "marketCap": 579039256,
+    "volume24h": 15796906,
+    "volatility": 0.11427854472315559,
+    "liquidityRatio": 0.0272812349703627,
+    "fetchedAt": "2026-08-12T09:12:29.947Z"
+  },
+  {
+    "symbol": "LIT",
+    "name": "Lighter",
+    "ecosystem": "Ethereum",
+    "marketCap": 572216582,
+    "volume24h": 35448974,
+    "volatility": 0.052569074129055815,
+    "liquidityRatio": 0.061950273926175733,
+    "fetchedAt": "2026-08-12T09:12:32.955Z"
+  },
+  {
+    "symbol": "JUP",
+    "name": "Jupiter",
+    "ecosystem": "Solana",
+    "marketCap": 570768665,
+    "volume24h": 23791990,
+    "volatility": 0.024627155668825437,
+    "liquidityRatio": 0.04168412083378824,
+    "fetchedAt": "2026-08-12T09:12:35.916Z"
+  },
+  {
+    "symbol": "USD0",
+    "name": "Usual USD",
+    "ecosystem": "Ethereum",
+    "marketCap": 550744254,
+    "volume24h": 1777168,
+    "volatility": 0.00030868629223417525,
+    "liquidityRatio": 0.003226848009929487,
+    "fetchedAt": "2026-08-12T09:12:38.893Z"
+  },
+  {
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "ecosystem": "Ethereum",
+    "marketCap": 516786484,
+    "volume24h": 36701169,
+    "volatility": 0.02362200541942121,
+    "liquidityRatio": 0.07101805123835243,
+    "fetchedAt": "2026-08-12T09:12:41.822Z"
+  },
+  {
+    "symbol": "TUSD",
+    "name": "TrueUSD",
+    "ecosystem": "Ethereum",
+    "marketCap": 492475053,
+    "volume24h": 14396493,
+    "volatility": 0.0003560981611128613,
+    "liquidityRatio": 0.02923293862765471,
+    "fetchedAt": "2026-08-12T09:12:44.782Z"
+  },
+  {
+    "symbol": "A7A5",
+    "name": "A7A5",
+    "ecosystem": "Ethereum",
+    "marketCap": 472984132,
+    "volume24h": 3561.32,
+    "volatility": 0.007827336931623734,
+    "liquidityRatio": 0.000007529470354409268,
+    "fetchedAt": "2026-08-12T09:12:47.853Z"
+  },
+  {
+    "symbol": "CAKE",
+    "name": "PancakeSwap",
+    "ecosystem": "Ethereum",
+    "marketCap": 464305043,
+    "volume24h": 21437495,
+    "volatility": 0.016984656053101888,
+    "liquidityRatio": 0.04617114399939869,
+    "fetchedAt": "2026-08-12T09:12:50.900Z"
+  },
+  {
+    "symbol": "INJ",
+    "name": "Injective",
+    "ecosystem": "Ethereum",
+    "marketCap": 461482277,
+    "volume24h": 71714002,
+    "volatility": 0.03657405229061265,
+    "liquidityRatio": 0.1553992549100645,
+    "fetchedAt": "2026-08-12T09:12:53.828Z"
+  },
+  {
+    "symbol": "EURC",
+    "name": "EURC",
+    "ecosystem": "Ethereum",
+    "marketCap": 457056339,
+    "volume24h": 18601342,
+    "volatility": 0.0023542781544623487,
+    "liquidityRatio": 0.040698138091024266,
+    "fetchedAt": "2026-08-12T09:12:56.788Z"
+  },
+  {
+    "symbol": "CRV",
+    "name": "Curve DAO",
+    "ecosystem": "Ethereum",
+    "marketCap": 431058519,
+    "volume24h": 100408383,
+    "volatility": 0.03147860823065409,
+    "liquidityRatio": 0.2329344591841833,
+    "fetchedAt": "2026-08-12T09:12:59.540Z"
+  },
+  {
+    "symbol": "PENGU",
+    "name": "Pudgy Penguins",
+    "ecosystem": "Ethereum",
+    "marketCap": 398447760,
+    "volume24h": 37810513,
+    "volatility": 0.029797522435582913,
+    "liquidityRatio": 0.09489453021394825,
+    "fetchedAt": "2026-08-12T09:13:02.544Z"
+  },
+  {
+    "symbol": "OUSG",
+    "name": "Ondo Short-Term U.S. Government Bond Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 380843707,
+    "volume24h": 0,
+    "volatility": 0.00008311756203843775,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:13:05.501Z"
+  },
+  {
+    "symbol": "TRUMP",
+    "name": "Official Trump",
+    "ecosystem": "Solana",
+    "marketCap": 364671075,
+    "volume24h": 49049205,
+    "volatility": 0.018551065390554504,
+    "liquidityRatio": 0.13450259250750832,
+    "fetchedAt": "2026-08-12T09:13:08.471Z"
+  },
+  {
+    "symbol": "ETHFI",
+    "name": "Ether.fi",
+    "ecosystem": "Ethereum",
+    "marketCap": 361722828,
+    "volume24h": 21544491,
+    "volatility": 0.043350446670162315,
+    "liquidityRatio": 0.05956077231597891,
+    "fetchedAt": "2026-08-12T09:13:11.465Z"
+  },
+  {
+    "symbol": "USDTB",
+    "name": "USDtb",
+    "ecosystem": "Ethereum",
+    "marketCap": 352668245,
+    "volume24h": 1604789,
+    "volatility": 0.000249795815548867,
+    "liquidityRatio": 0.004550421033796224,
+    "fetchedAt": "2026-08-12T09:13:14.451Z"
+  },
+  {
+    "symbol": "VIRTUAL",
+    "name": "Virtuals Protocol",
+    "ecosystem": "Ethereum",
+    "marketCap": 351856357,
+    "volume24h": 50584850,
+    "volatility": 0.02862556547580712,
+    "liquidityRatio": 0.14376562763082323,
+    "fetchedAt": "2026-08-12T09:13:17.462Z"
+  },
+  {
+    "symbol": "FDUSD",
+    "name": "First Digital USD",
+    "ecosystem": "Ethereum",
+    "marketCap": 350725669,
+    "volume24h": 73425636,
+    "volatility": 0.0003061637848932309,
+    "liquidityRatio": 0.20935347050403658,
+    "fetchedAt": "2026-08-12T09:13:20.420Z"
+  },
+  {
+    "symbol": "UB",
+    "name": "Unibase",
+    "ecosystem": "Ethereum",
+    "marketCap": 341107649,
+    "volume24h": 8120852,
+    "volatility": 0.1159980519765919,
+    "liquidityRatio": 0.023807299612914865,
+    "fetchedAt": "2026-08-12T09:13:23.401Z"
+  },
+  {
+    "symbol": "KAU",
+    "name": "Kinesis Gold",
+    "ecosystem": "Ethereum",
+    "marketCap": 337257428,
+    "volume24h": 5823589,
+    "volatility": 0.2178123489262382,
+    "liquidityRatio": 0.017267489213017424,
+    "fetchedAt": "2026-08-12T09:13:26.347Z"
+  },
+  {
+    "symbol": "PYTH",
+    "name": "Pyth Network",
+    "ecosystem": "Solana",
+    "marketCap": 318373388,
+    "volume24h": 13776161,
+    "volatility": 0.029980501524847002,
+    "liquidityRatio": 0.04327045387348769,
+    "fetchedAt": "2026-08-12T09:26:30.398Z"
+  },
+  {
+    "symbol": "ANTFUN",
+    "name": "AntFun",
+    "ecosystem": "Solana",
+    "marketCap": 318062933,
+    "volume24h": 18831396,
+    "volatility": 0.012753054594592356,
+    "liquidityRatio": 0.05920650929795708,
+    "fetchedAt": "2026-08-12T09:13:29.374Z"
+  },
+  {
+    "symbol": "APXUSD",
+    "name": "apxUSD",
+    "ecosystem": "Ethereum",
+    "marketCap": 306917208,
+    "volume24h": 1226054,
+    "volatility": 0.012419125294961652,
+    "liquidityRatio": 0.003994738541997945,
+    "fetchedAt": "2026-08-12T09:26:33.383Z"
+  },
+  {
+    "symbol": "FET",
+    "name": "Artificial Superintelligence Alliance",
+    "ecosystem": "Ethereum",
+    "marketCap": 301865509,
+    "volume24h": 35250401,
+    "volatility": 0.027382293486769287,
+    "liquidityRatio": 0.11677518613098656,
+    "fetchedAt": "2026-08-12T09:26:36.341Z"
+  },
+  {
+    "symbol": "ZRO",
+    "name": "LayerZero",
+    "ecosystem": "Ethereum",
+    "marketCap": 297255793,
+    "volume24h": 18781022,
+    "volatility": 0.03458871589291226,
+    "liquidityRatio": 0.06318134900065682,
+    "fetchedAt": "2026-08-12T09:26:39.290Z"
+  },
+  {
+    "symbol": "SPX",
+    "name": "SPX6900",
+    "ecosystem": "Ethereum",
+    "marketCap": 293029258,
+    "volume24h": 3466304,
+    "volatility": 0.036558846912645805,
+    "liquidityRatio": 0.011829207853367324,
+    "fetchedAt": "2026-08-12T09:26:42.241Z"
+  },
+  {
+    "symbol": "BC",
+    "name": "BCGame Coin",
+    "ecosystem": "Solana",
+    "marketCap": 283465781,
+    "volume24h": 72289,
+    "volatility": 0.03713418650875013,
+    "liquidityRatio": 0.0002550184355409022,
+    "fetchedAt": "2026-08-12T09:26:45.345Z"
+  },
+  {
+    "symbol": "JTO",
+    "name": "Jito",
+    "ecosystem": "Solana",
+    "marketCap": 283426760,
+    "volume24h": 22417282,
+    "volatility": 0.038791624568941814,
+    "liquidityRatio": 0.07909373836119074,
+    "fetchedAt": "2026-08-12T09:26:48.352Z"
+  },
+  {
+    "symbol": "OHM",
+    "name": "Olympus",
+    "ecosystem": "Ethereum",
+    "marketCap": 280510905,
+    "volume24h": 65559,
+    "volatility": 0.00931643100806263,
+    "liquidityRatio": 0.00023371283907839519,
+    "fetchedAt": "2026-08-12T09:26:51.396Z"
+  },
+  {
+    "symbol": "CARDS",
+    "name": "Collector Crypt",
+    "ecosystem": "Solana",
+    "marketCap": 279037321,
+    "volume24h": 1369950,
+    "volatility": 0.08404192856318891,
+    "liquidityRatio": 0.004909558316752905,
+    "fetchedAt": "2026-08-12T09:26:54.362Z"
+  },
+  {
+    "symbol": "NFT",
+    "name": "AINFT",
+    "ecosystem": "Ethereum",
+    "marketCap": 277200292,
+    "volume24h": 5022760,
+    "volatility": 0.00842156207923699,
+    "liquidityRatio": 0.01811960573259425,
+    "fetchedAt": "2026-08-12T09:26:57.336Z"
+  },
+  {
+    "symbol": "GNO",
+    "name": "Gnosis",
+    "ecosystem": "Ethereum",
+    "marketCap": 275806535,
+    "volume24h": 2271810,
+    "volatility": 0.017102941585532876,
+    "liquidityRatio": 0.008236969439465966,
+    "fetchedAt": "2026-08-12T09:27:00.364Z"
+  },
+  {
+    "symbol": "BTT",
+    "name": "BitTorrent",
+    "ecosystem": "Ethereum",
+    "marketCap": 257520535,
+    "volume24h": 6340696,
+    "volatility": 0.010662050468835007,
+    "liquidityRatio": 0.024622098583322684,
+    "fetchedAt": "2026-08-12T09:27:03.580Z"
+  },
+  {
+    "symbol": "ONYC",
+    "name": "OnRe Tokenized Reinsurance",
+    "ecosystem": "Solana",
+    "marketCap": 255909403,
+    "volume24h": 1454173,
+    "volatility": 0.0004536878808980192,
+    "liquidityRatio": 0.005682374242418908,
+    "fetchedAt": "2026-08-12T09:27:06.546Z"
+  },
+  {
+    "symbol": "KITE",
+    "name": "Kite",
+    "ecosystem": "Ethereum",
+    "marketCap": 248326210,
+    "volume24h": 12850243,
+    "volatility": 0.03853354238477847,
+    "liquidityRatio": 0.05174742931887858,
+    "fetchedAt": "2026-08-12T09:27:09.585Z"
+  },
+  {
+    "symbol": "LDO",
+    "name": "Lido DAO",
+    "ecosystem": "Ethereum",
+    "marketCap": 241607222,
+    "volume24h": 20213975,
+    "volatility": 0.04586802139534466,
+    "liquidityRatio": 0.08366461413144347,
+    "fetchedAt": "2026-08-12T09:27:12.554Z"
+  },
+  {
+    "symbol": "PENDLE",
+    "name": "Pendle",
+    "ecosystem": "Ethereum",
+    "marketCap": 230097894,
+    "volume24h": 18810497,
+    "volatility": 0.028157624308942752,
+    "liquidityRatio": 0.08174997464340113,
+    "fetchedAt": "2026-08-12T09:27:15.497Z"
+  },
+  {
+    "symbol": "KAG",
+    "name": "Kinesis Silver",
+    "ecosystem": "Ethereum",
+    "marketCap": 229385886,
+    "volume24h": 430523,
+    "volatility": 0.20363694515966865,
+    "liquidityRatio": 0.001876850435340211,
+    "fetchedAt": "2026-08-12T09:27:18.466Z"
+  },
+  {
+    "symbol": "Q",
+    "name": "Quack AI",
+    "ecosystem": "Ethereum",
+    "marketCap": 226558567,
+    "volume24h": 2049034,
+    "volatility": 0.060760195954103265,
+    "liquidityRatio": 0.009044169139717414,
+    "fetchedAt": "2026-08-12T09:27:21.421Z"
+  },
+  {
+    "symbol": "FRAX",
+    "name": "Legacy Frax Dollar",
+    "ecosystem": "Ethereum",
+    "marketCap": 217217182,
+    "volume24h": 214576,
+    "volatility": 0.0011794000938927741,
+    "liquidityRatio": 0.0009878408237521468,
+    "fetchedAt": "2026-08-12T09:27:24.463Z"
+  },
+  {
+    "symbol": "CRVUSD",
+    "name": "crvUSD",
+    "ecosystem": "Ethereum",
+    "marketCap": 215385682,
+    "volume24h": 7873316,
+    "volatility": 0.0011639755254033823,
+    "liquidityRatio": 0.03655450040546335,
+    "fetchedAt": "2026-08-12T09:27:27.428Z"
+  },
+  {
+    "symbol": "AUSD",
+    "name": "AUSD",
+    "ecosystem": "Ethereum",
+    "marketCap": 214125623,
+    "volume24h": 6638543,
+    "volatility": 0.00018230525483645655,
+    "liquidityRatio": 0.031003029469294292,
+    "fetchedAt": "2026-08-12T09:27:30.367Z"
+  },
+  {
+    "symbol": "GRASS",
+    "name": "Grass",
+    "ecosystem": "Solana",
+    "marketCap": 204054399,
+    "volume24h": 12442167,
+    "volatility": 0.03892408297369671,
+    "liquidityRatio": 0.060974755070092854,
+    "fetchedAt": "2026-08-12T09:27:33.341Z"
+  },
+  {
+    "symbol": "BONK",
+    "name": "Bonk",
+    "ecosystem": "Ethereum",
+    "marketCap": 201738243,
+    "volume24h": 29433361,
+    "volatility": 0.04987298618885161,
+    "liquidityRatio": 0.14589876744390998,
+    "fetchedAt": "2026-08-12T09:27:36.253Z"
+  },
+  {
+    "symbol": "PIEVERSE",
+    "name": "Pieverse",
+    "ecosystem": "Ethereum",
+    "marketCap": 201524644,
+    "volume24h": 2841074,
+    "volatility": 0.04537673312456274,
+    "liquidityRatio": 0.014097898617302606,
+    "fetchedAt": "2026-08-12T09:27:39.220Z"
+  },
+  {
+    "symbol": "JASMY",
+    "name": "JasmyCoin",
+    "ecosystem": "Ethereum",
+    "marketCap": 198437056,
+    "volume24h": 4784980,
+    "volatility": 0.023404730115021782,
+    "liquidityRatio": 0.024113338992491403,
+    "fetchedAt": "2026-08-12T09:27:42.174Z"
+  },
+  {
+    "symbol": "FLOKI",
+    "name": "FLOKI",
+    "ecosystem": "Ethereum",
+    "marketCap": 197020552,
+    "volume24h": 10344032,
+    "volatility": 0.022619003827468048,
+    "liquidityRatio": 0.052502299354028815,
+    "fetchedAt": "2026-08-12T09:27:45.164Z"
+  },
+  {
+    "symbol": "FF",
+    "name": "Falcon Finance",
+    "ecosystem": "Ethereum",
+    "marketCap": 193639125,
+    "volume24h": 14737144,
+    "volatility": 0.03049019870829086,
+    "liquidityRatio": 0.07610623111419244,
+    "fetchedAt": "2026-08-12T09:27:48.147Z"
+  },
+  {
+    "symbol": "VBILL",
+    "name": "VanEck Treasury Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 193200620,
+    "volume24h": 0,
+    "volatility": 6.712540577904883e-17,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:27:51.106Z"
+  },
+  {
+    "symbol": "H",
+    "name": "Humanity",
+    "ecosystem": "Ethereum",
+    "marketCap": 190388174,
+    "volume24h": 4642084,
+    "volatility": 0.04656100943427029,
+    "liquidityRatio": 0.02438220768901329,
+    "fetchedAt": "2026-08-12T09:27:54.068Z"
+  },
+  {
+    "symbol": "DEXE",
+    "name": "DeXe",
+    "ecosystem": "Ethereum",
+    "marketCap": 186880786,
+    "volume24h": 16222418,
+    "volatility": 0.32358812104841056,
+    "liquidityRatio": 0.0868062380687975,
+    "fetchedAt": "2026-08-12T09:27:57.044Z"
+  },
+  {
+    "symbol": "USAT",
+    "name": "USAT",
+    "ecosystem": "Ethereum",
+    "marketCap": 185170380,
+    "volume24h": 1640625,
+    "volatility": 0.0002482930072291665,
+    "liquidityRatio": 0.008860083345943341,
+    "fetchedAt": "2026-08-12T09:28:00.019Z"
+  },
+  {
+    "symbol": "REUSD",
+    "name": "Re Protocol reUSD",
+    "ecosystem": "Ethereum",
+    "marketCap": 181480891,
+    "volume24h": 1700425,
+    "volatility": 0.00021743527409694873,
+    "liquidityRatio": 0.009369719261517181,
+    "fetchedAt": "2026-08-12T09:28:02.969Z"
+  },
+  {
+    "symbol": "2Z",
+    "name": "DoubleZero",
+    "ecosystem": "Solana",
+    "marketCap": 180259051,
+    "volume24h": 1848190,
+    "volatility": 0.0192989756830077,
+    "liquidityRatio": 0.010252966437729666,
+    "fetchedAt": "2026-08-12T09:28:06.141Z"
+  },
+  {
+    "symbol": "APYUSD",
+    "name": "apyUSD",
+    "ecosystem": "Ethereum",
+    "marketCap": 177105006,
+    "volume24h": 442899,
+    "volatility": 0.012478291471409362,
+    "liquidityRatio": 0.0025007706445067963,
+    "fetchedAt": "2026-08-12T09:28:09.118Z"
+  },
+  {
+    "symbol": "ENS",
+    "name": "Ethereum Name Service",
+    "ecosystem": "Ethereum",
+    "marketCap": 174208464,
+    "volume24h": 7366436,
+    "volatility": 0.025643478304427,
+    "liquidityRatio": 0.042285178520373154,
+    "fetchedAt": "2026-08-12T09:28:12.180Z"
+  },
+  {
+    "symbol": "USDAI",
+    "name": "USDai",
+    "ecosystem": "Ethereum",
+    "marketCap": 174156212,
+    "volume24h": 2593469,
+    "volatility": 0.00021013195171289763,
+    "liquidityRatio": 0.014891624996988337,
+    "fetchedAt": "2026-08-12T09:28:15.225Z"
+  },
+  {
+    "symbol": "SYRUP",
+    "name": "Maple Finance",
+    "ecosystem": "Ethereum",
+    "marketCap": 173007155,
+    "volume24h": 5179929,
+    "volatility": 0.021056339828153626,
+    "liquidityRatio": 0.02994054783456788,
+    "fetchedAt": "2026-08-12T09:28:18.645Z"
+  },
+  {
+    "symbol": "RAY",
+    "name": "Raydium",
+    "ecosystem": "Solana",
+    "marketCap": 170092005,
+    "volume24h": 5249759,
+    "volatility": 0.023341465981505244,
+    "liquidityRatio": 0.030864231390534787,
+    "fetchedAt": "2026-08-12T09:28:21.694Z"
+  },
+  {
+    "symbol": "USTBL",
+    "name": "Spiko US T-Bills Money Market Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 169637910,
+    "volume24h": 0,
+    "volatility": 0.00009769589780854403,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:28:24.862Z"
+  },
+  {
+    "symbol": "VCNT",
+    "name": "ViciCoin",
+    "ecosystem": "Ethereum",
+    "marketCap": 167812757,
+    "volume24h": 298692,
+    "volatility": 0.011330602008274878,
+    "liquidityRatio": 0.001779912357914482,
+    "fetchedAt": "2026-08-12T09:28:27.954Z"
+  },
+  {
+    "symbol": "CVX",
+    "name": "Convex Finance",
+    "ecosystem": "Ethereum",
+    "marketCap": 163537653,
+    "volume24h": 9811300,
+    "volatility": 0.03833134748498199,
+    "liquidityRatio": 0.05999413480637392,
+    "fetchedAt": "2026-08-12T09:28:31.074Z"
+  },
+  {
+    "symbol": "ZBCN",
+    "name": "Zebec Network",
+    "ecosystem": "Solana",
+    "marketCap": 162316936,
+    "volume24h": 10367257,
+    "volatility": 0.02915981250135079,
+    "liquidityRatio": 0.0638704577321494,
+    "fetchedAt": "2026-08-12T09:28:34.179Z"
+  },
+  {
+    "symbol": "COMP",
+    "name": "Compound",
+    "ecosystem": "Ethereum",
+    "marketCap": 162073719,
+    "volume24h": 7169246,
+    "volatility": 0.016787413407360306,
+    "liquidityRatio": 0.04423447579431431,
+    "fetchedAt": "2026-08-12T09:28:37.213Z"
+  },
+  {
+    "symbol": "EURCV",
+    "name": "EUR CoinVertible",
+    "ecosystem": "Ethereum",
+    "marketCap": 161109686,
+    "volume24h": 7067072,
+    "volatility": 0.0023184215536351787,
+    "liquidityRatio": 0.04386497283595972,
+    "fetchedAt": "2026-08-12T09:28:40.313Z"
+  },
+  {
+    "symbol": "TEL",
+    "name": "Telcoin",
+    "ecosystem": "Ethereum",
+    "marketCap": 157841837,
+    "volume24h": 1231053,
+    "volatility": 0.04543909848965586,
+    "liquidityRatio": 0.007799282011650688,
+    "fetchedAt": "2026-08-12T09:28:44.312Z"
+  },
+  {
+    "symbol": "STRK",
+    "name": "Starknet",
+    "ecosystem": "Ethereum",
+    "marketCap": 155114136,
+    "volume24h": 13906998,
+    "volatility": 0.03679159733060036,
+    "liquidityRatio": 0.08965654813046826,
+    "fetchedAt": "2026-08-12T09:28:47.347Z"
+  },
+  {
+    "symbol": "AXS",
+    "name": "Axie Infinity",
+    "ecosystem": "Ethereum",
+    "marketCap": 154904944,
+    "volume24h": 21830451,
+    "volatility": 0.02183653946592374,
+    "liquidityRatio": 0.1409280455244863,
+    "fetchedAt": "2026-08-12T09:28:50.357Z"
+  },
+  {
+    "symbol": "HOLO",
+    "name": "Holoworld",
+    "ecosystem": "Solana",
+    "marketCap": 152876110,
+    "volume24h": 85632606,
+    "volatility": 0.0591054106510097,
+    "liquidityRatio": 0.560143805333613,
+    "fetchedAt": "2026-08-12T09:28:53.352Z"
+  },
+  {
+    "symbol": "STRCX",
+    "name": "Strategy PP Variable xStock",
+    "ecosystem": "Ethereum",
+    "marketCap": 152205128,
+    "volume24h": 52083,
+    "volatility": 0.02286500843743008,
+    "liquidityRatio": 0.0003421895220245142,
+    "fetchedAt": "2026-08-12T09:28:56.353Z"
+  },
+  {
+    "symbol": "MX",
+    "name": "MX",
+    "ecosystem": "Ethereum",
+    "marketCap": 151126808,
+    "volume24h": 2439183,
+    "volatility": 0.0069200929365381015,
+    "liquidityRatio": 0.016139975642177264,
+    "fetchedAt": "2026-08-12T09:29:00.482Z"
+  },
+  {
+    "symbol": "GRT",
+    "name": "The Graph",
+    "ecosystem": "Ethereum",
+    "marketCap": 148183702,
+    "volume24h": 12558857,
+    "volatility": 0.020169645286793728,
+    "liquidityRatio": 0.0847519452577855,
+    "fetchedAt": "2026-08-12T09:29:03.769Z"
+  },
+  {
+    "symbol": "SAFO",
+    "name": "Spiko Amundi Overnight Swap Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 145431746,
+    "volume24h": 0,
+    "volatility": 0.00011235926355317942,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:29:06.781Z"
+  },
+  {
+    "symbol": "BORG",
+    "name": "SwissBorg",
+    "ecosystem": "Ethereum",
+    "marketCap": 143756284,
+    "volume24h": 170153,
+    "volatility": 0.02600239198262019,
+    "liquidityRatio": 0.0011836213017303648,
+    "fetchedAt": "2026-08-12T09:29:09.750Z"
+  },
+  {
+    "symbol": "BTSE",
+    "name": "BTSE Token",
+    "ecosystem": "Ethereum",
+    "marketCap": 143506908,
+    "volume24h": 5458661,
+    "volatility": 0.034236655041922616,
+    "liquidityRatio": 0.038037618370259915,
+    "fetchedAt": "2026-08-12T09:29:13.895Z"
+  },
+  {
+    "symbol": "WIF",
+    "name": "dogwifhat",
+    "ecosystem": "Solana",
+    "marketCap": 139015336,
+    "volume24h": 17137771,
+    "volatility": 0.024634384479275954,
+    "liquidityRatio": 0.12327971498051121,
+    "fetchedAt": "2026-08-12T09:29:17.191Z"
+  },
+  {
+    "symbol": "VSN",
+    "name": "Vision",
+    "ecosystem": "Ethereum",
+    "marketCap": 136523444,
+    "volume24h": 777114,
+    "volatility": 0.022407603532563606,
+    "liquidityRatio": 0.005692165222553278,
+    "fetchedAt": "2026-08-12T09:29:20.240Z"
+  },
+  {
+    "symbol": "FARTCOIN",
+    "name": "Fartcoin",
+    "ecosystem": "Solana",
+    "marketCap": 134938914,
+    "volume24h": 13342835,
+    "volatility": 0.0352620930088819,
+    "liquidityRatio": 0.0988805571682606,
+    "fetchedAt": "2026-08-12T09:29:23.195Z"
+  },
+  {
+    "symbol": "SHFL",
+    "name": "Shuffle",
+    "ecosystem": "Ethereum",
+    "marketCap": 134178299,
+    "volume24h": 519492,
+    "volatility": 0.04355947602994382,
+    "liquidityRatio": 0.0038716543872716704,
+    "fetchedAt": "2026-08-12T09:29:26.239Z"
+  },
+  {
+    "symbol": "CHZ",
+    "name": "Chiliz",
+    "ecosystem": "Ethereum",
+    "marketCap": 132991401,
+    "volume24h": 15816869,
+    "volatility": 0.026254190078181347,
+    "liquidityRatio": 0.11893151648203179,
+    "fetchedAt": "2026-08-12T09:29:29.208Z"
+  },
+  {
+    "symbol": "MANA",
+    "name": "Decentraland",
+    "ecosystem": "Ethereum",
+    "marketCap": 128907639,
+    "volume24h": 8361654,
+    "volatility": 0.019669224396469103,
+    "liquidityRatio": 0.06486546542055588,
+    "fetchedAt": "2026-08-12T09:29:32.197Z"
+  },
+  {
+    "symbol": "EIGEN",
+    "name": "EigenCloud (prev. EigenLayer)",
+    "ecosystem": "Ethereum",
+    "marketCap": 128676761,
+    "volume24h": 12653465,
+    "volatility": 0.03270328824201355,
+    "liquidityRatio": 0.09833527749427887,
+    "fetchedAt": "2026-08-12T09:29:38.171Z"
+  },
+  {
+    "symbol": "APE",
+    "name": "ApeCoin",
+    "ecosystem": "Ethereum",
+    "marketCap": 128311852,
+    "volume24h": 11743606,
+    "volatility": 0.02883339422010301,
+    "liquidityRatio": 0.09152393810043362,
+    "fetchedAt": "2026-08-12T09:29:41.207Z"
+  },
+  {
+    "symbol": "EDGE",
+    "name": "edgeX",
+    "ecosystem": "Ethereum",
+    "marketCap": 127555689,
+    "volume24h": 2362701,
+    "volatility": 0.042652264674799496,
+    "liquidityRatio": 0.01852289786933768,
+    "fetchedAt": "2026-08-12T09:29:44.260Z"
+  },
+  {
+    "symbol": "JPYSC",
+    "name": "JPYSC",
+    "ecosystem": "Ethereum",
+    "marketCap": 126113847,
+    "volume24h": 0,
+    "volatility": 0.007087401008544403,
+    "liquidityRatio": 0,
+    "fetchedAt": "2026-08-12T09:29:47.268Z"
+  },
+  {
+    "symbol": "LION",
+    "name": "Loaded Lions",
+    "ecosystem": "Solana",
+    "marketCap": 124036879,
+    "volume24h": 12958.91,
+    "volatility": 0.017334182982438655,
+    "liquidityRatio": 0.00010447626628851246,
+    "fetchedAt": "2026-08-12T09:29:50.288Z"
+  },
+  {
+    "symbol": "CASH",
+    "name": "CASH",
+    "ecosystem": "Solana",
+    "marketCap": 122497598,
+    "volume24h": 8203004,
+    "volatility": 0.00036455380681779627,
+    "liquidityRatio": 0.0669646110122094,
+    "fetchedAt": "2026-08-12T09:29:53.299Z"
+  },
+  {
+    "symbol": "AIAT",
+    "name": "AI Analysis Token",
+    "ecosystem": "Ethereum",
+    "marketCap": 119600847,
+    "volume24h": 16643.55,
+    "volatility": 0.0075014393213836674,
+    "liquidityRatio": 0.0001391591315402641,
+    "fetchedAt": "2026-08-12T09:29:56.344Z"
+  },
+  {
+    "symbol": "SAND",
+    "name": "The Sandbox",
+    "ecosystem": "Ethereum",
+    "marketCap": 119260906,
+    "volume24h": 9914322,
+    "volatility": 0.0229395802201725,
+    "liquidityRatio": 0.08313136578050145,
+    "fetchedAt": "2026-08-12T09:29:59.304Z"
+  },
+  {
+    "symbol": "TRAC",
+    "name": "OriginTrail",
+    "ecosystem": "Ethereum",
+    "marketCap": 119083927,
+    "volume24h": 773289,
+    "volatility": 0.047322237383747016,
+    "liquidityRatio": 0.006493647123343522,
+    "fetchedAt": "2026-08-12T09:30:02.504Z"
+  },
+  {
+    "symbol": "SFP",
+    "name": "SafePal",
+    "ecosystem": "Ethereum",
+    "marketCap": 118790506,
+    "volume24h": 1909995,
+    "volatility": 0.02307524337991556,
+    "liquidityRatio": 0.01607868393118891,
+    "fetchedAt": "2026-08-12T09:30:22.554Z"
+  },
+  {
+    "symbol": "1INCH",
+    "name": "1INCH",
+    "ecosystem": "Ethereum",
+    "marketCap": 117585947,
+    "volume24h": 10424754,
+    "volatility": 0.028808715291305836,
+    "liquidityRatio": 0.08865646164332885,
+    "fetchedAt": "2026-08-12T09:30:25.658Z"
+  },
+  {
+    "symbol": "THBILL",
+    "name": "Theo Short Duration US Treasury Fund",
+    "ecosystem": "Ethereum",
+    "marketCap": 117522399,
+    "volume24h": 33787,
+    "volatility": 0.0015511615676355238,
+    "liquidityRatio": 0.00028749413122514626,
+    "fetchedAt": "2026-08-12T09:30:28.749Z"
+  },
+  {
+    "symbol": "SNX",
+    "name": "Synthetix",
+    "ecosystem": "Ethereum",
+    "marketCap": 116349258,
+    "volume24h": 7505748,
+    "volatility": 0.02253728385637672,
+    "liquidityRatio": 0.06451049305359557,
+    "fetchedAt": "2026-08-12T09:30:31.771Z"
+  },
+  {
+    "symbol": "XCN",
+    "name": "Onyxcoin",
+    "ecosystem": "Ethereum",
+    "marketCap": 116099930,
+    "volume24h": 2093869,
+    "volatility": 0.03481758567538815,
+    "liquidityRatio": 0.018035058246805145,
+    "fetchedAt": "2026-08-12T09:30:34.748Z"
+  },
+  {
+    "symbol": "SOSO",
+    "name": "SoSoValue",
+    "ecosystem": "Ethereum",
+    "marketCap": 115540302,
+    "volume24h": 2974214,
+    "volatility": 0.04348867977574045,
+    "liquidityRatio": 0.02574178835018105,
+    "fetchedAt": "2026-08-12T09:30:37.721Z"
+  },
+  {
+    "symbol": "GOMINING",
+    "name": "GoMining Token",
+    "ecosystem": "Ethereum",
+    "marketCap": 115514448,
+    "volume24h": 7765157,
+    "volatility": 0.03051639735579081,
+    "liquidityRatio": 0.06722238762721698,
+    "fetchedAt": "2026-08-12T09:30:40.680Z"
+  },
+  {
+    "symbol": "RLB",
+    "name": "Rollbit Coin",
+    "ecosystem": "Ethereum",
+    "marketCap": 112764054,
+    "volume24h": 496371,
+    "volatility": 0.019623636291337274,
+    "liquidityRatio": 0.004401854867686825,
+    "fetchedAt": "2026-08-12T09:30:43.638Z"
+  },
+  {
+    "symbol": "BSPX",
+    "name": "Bending Spoons xStock",
+    "ecosystem": "Ethereum",
+    "marketCap": 112028348,
+    "volume24h": 20501,
+    "volatility": 0.05390739956763872,
+    "liquidityRatio": 0.00018299832467403698,
+    "fetchedAt": "2026-08-12T09:30:46.618Z"
+  },
+  {
+    "symbol": "FRXUSD",
+    "name": "Frax USD",
+    "ecosystem": "Ethereum",
+    "marketCap": 111532422,
+    "volume24h": 2360047,
+    "volatility": 0.00418753780419114,
+    "liquidityRatio": 0.02116018784206085,
+    "fetchedAt": "2026-08-12T09:30:49.644Z"
+  },
+  {
+    "symbol": "META",
+    "name": "MetaDAO",
+    "ecosystem": "Solana",
+    "marketCap": 108199227,
+    "volume24h": 4381214,
+    "volatility": 0.12334863561658181,
+    "liquidityRatio": 0.04049210074301178,
+    "fetchedAt": "2026-08-12T09:30:52.613Z"
+  }
+]

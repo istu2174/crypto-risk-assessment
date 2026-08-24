@@ -1,0 +1,2549 @@
+{
+  "waktuEksekusiUTC": "2026-08-15T04:06:51.140Z",
+  "waktuPengambilanDataset": "2026-07-28T04:36:53.000Z",
+  "waktuPengambilanWIB": "28 Juli 2026, 11.36.53 WIB",
+  "jumlahAsetDataset": 101,
+  "jumlahAsetTerklasifikasi": 89,
+  "jumlahAsetGagal": 12,
+  "rincianAsetGagal": [
+    {
+      "symbol": "JAAA",
+      "name": "Janus Henderson Anemoy AAA CLO Fund",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "ANTFUN",
+      "name": "AntFun",
+      "alasan": "histori harga hanya 14 hari"
+    },
+    {
+      "symbol": "M",
+      "name": "Mantis",
+      "alasan": "histori harga hanya 4 hari"
+    },
+    {
+      "symbol": "SWOP",
+      "name": "Swop",
+      "alasan": "histori harga hanya 21 hari"
+    },
+    {
+      "symbol": "TBB",
+      "name": "The Bitcoin Bull",
+      "alasan": "histori harga hanya 5 hari"
+    },
+    {
+      "symbol": "USYC",
+      "name": "Circle USYC",
+      "alasan": "histori harga hanya 17 hari"
+    },
+    {
+      "symbol": "BCAP",
+      "name": "Blockchain Capital",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "EUTBL",
+      "name": "Spiko EU T-Bills Money Market Fund",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "CLBTC",
+      "name": "clBTC",
+      "alasan": "histori harga hanya 23 hari"
+    },
+    {
+      "symbol": "USTB",
+      "name": "Invesco Short Duration US Government Securities Fund",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "NXM",
+      "name": "Nexus Mutual",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "FDIT",
+      "name": "Fidelity Digital Interest Token",
+      "alasan": "volume 24h nol / tidak tersedia"
+    }
+  ],
+  "jumlahAset": 89,
+  "matriksKonfusi": {
+    "Low": {
+      "Low": 34,
+      "Medium": 0,
+      "High": 0
+    },
+    "Medium": {
+      "Low": 0,
+      "Medium": 44,
+      "High": 0
+    },
+    "High": {
+      "Low": 0,
+      "Medium": 0,
+      "High": 11
+    }
+  },
+  "totalAktual": {
+    "Low": 34,
+    "Medium": 44,
+    "High": 11
+  },
+  "totalPrediksi": {
+    "Low": 34,
+    "Medium": 44,
+    "High": 11
+  },
+  "metrik": {
+    "akurasi": 1,
+    "perKelas": [
+      {
+        "kelas": "Low",
+        "tp": 34,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "kelas": "Medium",
+        "tp": 44,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "kelas": "High",
+        "tp": 11,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      }
+    ],
+    "kappa": 1,
+    "pO": 1,
+    "pE": 0.40563060219669234,
+    "interpretasiKappa": "Almost perfect"
+  },
+  "kesepakatanSkorVariabel": {
+    "cocok": 89,
+    "total": 89
+  },
+  "kalibrasi": [
+    {
+      "variabel": "Market Cap",
+      "key": "marketCap",
+      "ambang": [
+        100000000,
+        1000000000,
+        10000000000
+      ],
+      "persentil": [
+        38.20224719101123,
+        70.78651685393258,
+        94.3820224719101
+      ],
+      "hitung": [
+        5,
+        21,
+        29,
+        34
+      ],
+      "status": "Semua kelas terisi",
+      "min": 42651590,
+      "max": 1269503306219,
+      "median": 203246863
+    },
+    {
+      "variabel": "Volume 24 Jam",
+      "key": "volume24h",
+      "ambang": [
+        1000000,
+        10000000,
+        100000000
+      ],
+      "persentil": [
+        16.853932584269664,
+        49.43820224719101,
+        82.02247191011236
+      ],
+      "hitung": [
+        16,
+        29,
+        29,
+        15
+      ],
+      "status": "Semua kelas terisi",
+      "min": 546.62,
+      "max": 26756509478,
+      "median": 10064772
+    },
+    {
+      "variabel": "Volatilitas",
+      "key": "volatility",
+      "ambang": [
+        0.04,
+        0.08,
+        0.15
+      ],
+      "persentil": [
+        71.91011235955057,
+        95.50561797752809,
+        97.75280898876404
+      ],
+      "hitung": [
+        64,
+        21,
+        2,
+        2
+      ],
+      "status": "Semua kelas terisi",
+      "min": 0.00012145357116682899,
+      "max": 0.22639075909534967,
+      "median": 0.03033765178892181
+    },
+    {
+      "variabel": "Rasio Likuiditas",
+      "key": "liquidityRatio",
+      "ambang": [
+        0.01,
+        0.05,
+        0.1
+      ],
+      "persentil": [
+        31.46067415730337,
+        53.93258426966292,
+        75.28089887640449
+      ],
+      "hitung": [
+        22,
+        19,
+        20,
+        28
+      ],
+      "status": "Semua kelas terisi",
+      "min": 0.000012788564175900662,
+      "max": 0.41299212681242703,
+      "median": 0.03805292772118943
+    }
+  ],
+  "rincian": [
+    {
+      "simbol": "SOL",
+      "ekosistem": "Solana",
+      "marketCap": 42660530715,
+      "volume24h": 1824667124,
+      "volatility": 0.02353989735939246,
+      "liquidityRatio": 0.04277178678788502,
+      "skorSistem": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 2,
+      "totalAcuan": 2,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "LINK",
+      "ekosistem": "Solana",
+      "marketCap": 6244650347,
+      "volume24h": 218843870,
+      "volatility": 0.02458225984303675,
+      "liquidityRatio": 0.03504501578781509,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "PUMP",
+      "ekosistem": "Solana",
+      "marketCap": 809450973,
+      "volume24h": 150931507,
+      "volatility": 0.06047115395520909,
+      "liquidityRatio": 0.18646157955757994,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "JLP",
+      "ekosistem": "Solana",
+      "marketCap": 800643663,
+      "volume24h": 2881852,
+      "volatility": 0.014830591448833407,
+      "liquidityRatio": 0.0035994189839731487,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "JUP",
+      "ekosistem": "Solana",
+      "marketCap": 603913215,
+      "volume24h": 20322599,
+      "volatility": 0.0368330831455333,
+      "liquidityRatio": 0.03365152226384051,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "USX",
+      "ekosistem": "Solana",
+      "marketCap": 522734102,
+      "volume24h": 1328498,
+      "volatility": 0.00012145357116682899,
+      "liquidityRatio": 0.0025414412316263997,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "TRUMP",
+      "ekosistem": "Solana",
+      "marketCap": 376851206,
+      "volume24h": 53791085,
+      "volatility": 0.023988780266360102,
+      "liquidityRatio": 0.14273825887663472,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "PYTH",
+      "ekosistem": "Solana",
+      "marketCap": 334116648,
+      "volume24h": 22986784,
+      "volatility": 0.039630187443553316,
+      "liquidityRatio": 0.06879867895717666,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "JTO",
+      "ekosistem": "Solana",
+      "marketCap": 283462675,
+      "volume24h": 30638992,
+      "volatility": 0.0509017437786465,
+      "liquidityRatio": 0.10808827652529561,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "CARDS",
+      "ekosistem": "Solana",
+      "marketCap": 252974886,
+      "volume24h": 4008338,
+      "volatility": 0.07548252278514708,
+      "liquidityRatio": 0.01584480603343369,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ONYC",
+      "ekosistem": "Solana",
+      "marketCap": 245970935,
+      "volume24h": 1399336,
+      "volatility": 0.005013522269380943,
+      "liquidityRatio": 0.005689029884770735,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "BC",
+      "ekosistem": "Solana",
+      "marketCap": 214322426,
+      "volume24h": 72716,
+      "volatility": 0.044845284783292305,
+      "liquidityRatio": 0.0003392832068819527,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 9,
+      "totalAcuan": 9,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GRASS",
+      "ekosistem": "Solana",
+      "marketCap": 203246863,
+      "volume24h": 17408851,
+      "volatility": 0.06789765727288789,
+      "liquidityRatio": 0.085653725440279,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "2Z",
+      "ekosistem": "Solana",
+      "marketCap": 202816128,
+      "volume24h": 3466202,
+      "volatility": 0.026778126309830768,
+      "liquidityRatio": 0.01709036669904279,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ZBCN",
+      "ekosistem": "Solana",
+      "marketCap": 181956501,
+      "volume24h": 11998645,
+      "volatility": 0.027118109230436664,
+      "liquidityRatio": 0.06594238147061313,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "RAY",
+      "ekosistem": "Solana",
+      "marketCap": 161176817,
+      "volume24h": 9338925,
+      "volatility": 0.03478156711230325,
+      "liquidityRatio": 0.057942110868215,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "WIF",
+      "ekosistem": "Solana",
+      "marketCap": 147902109,
+      "volume24h": 20914846,
+      "volatility": 0.030145401311113176,
+      "liquidityRatio": 0.1414100592710277,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "LION",
+      "ekosistem": "Solana",
+      "marketCap": 142657073,
+      "volume24h": 20920,
+      "volatility": 0.023561690495575008,
+      "liquidityRatio": 0.00014664537523491737,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 8,
+      "totalAcuan": 8,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "HOLO",
+      "ekosistem": "Solana",
+      "marketCap": 133853845,
+      "volume24h": 9417834,
+      "volatility": 0.04466379555450867,
+      "liquidityRatio": 0.07035908456720089,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "FARTCOIN",
+      "ekosistem": "Solana",
+      "marketCap": 122276439,
+      "volume24h": 15698411,
+      "volatility": 0.05334051099267407,
+      "liquidityRatio": 0.12838459418989132,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "CASH",
+      "ekosistem": "Solana",
+      "marketCap": 122028460,
+      "volume24h": 10837563,
+      "volatility": 0.00031826216155302284,
+      "liquidityRatio": 0.08881176571432599,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "XAUT0",
+      "ekosistem": "Solana",
+      "marketCap": 110558569,
+      "volume24h": 552840,
+      "volatility": 0.011805168808011432,
+      "liquidityRatio": 0.005000426516012521,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 8,
+      "totalAcuan": 8,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "BP",
+      "ekosistem": "Solana",
+      "marketCap": 109901325,
+      "volume24h": 1773072,
+      "volatility": 0.0553066097478551,
+      "liquidityRatio": 0.016133308674849918,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GEOD",
+      "ekosistem": "Solana",
+      "marketCap": 98305664,
+      "volume24h": 29108838,
+      "volatility": 0.038492778549146685,
+      "liquidityRatio": 0.2961054003968683,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "KMNO",
+      "ekosistem": "Solana",
+      "marketCap": 93339819,
+      "volume24h": 3383836,
+      "volatility": 0.027465518487190112,
+      "liquidityRatio": 0.036252866528485556,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "MET",
+      "ekosistem": "Solana",
+      "marketCap": 91525358,
+      "volume24h": 13922828,
+      "volatility": 0.062113228993235535,
+      "liquidityRatio": 0.1521198966520295,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "PYBOBO",
+      "ekosistem": "Solana",
+      "marketCap": 81640606,
+      "volume24h": 477392,
+      "volatility": 0.01821610422745908,
+      "liquidityRatio": 0.005847482317806412,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 9,
+      "totalAcuan": 9,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "DBR",
+      "ekosistem": "Solana",
+      "marketCap": 80998577,
+      "volume24h": 2292197,
+      "volatility": 0.02555911529785025,
+      "liquidityRatio": 0.02829922555306126,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "MELANIA",
+      "ekosistem": "Solana",
+      "marketCap": 79890133,
+      "volume24h": 7751321,
+      "volatility": 0.022847793219687905,
+      "liquidityRatio": 0.0970247602416684,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "INC",
+      "ekosistem": "Solana",
+      "marketCap": 79458969,
+      "volume24h": 110399,
+      "volatility": 0.033877626698118696,
+      "liquidityRatio": 0.0013893837459683122,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 9,
+      "totalAcuan": 9,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "WOULD",
+      "ekosistem": "Solana",
+      "marketCap": 78658385,
+      "volume24h": 23303,
+      "volatility": 0.01530848167274132,
+      "liquidityRatio": 0.00029625576472234967,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 9,
+      "totalAcuan": 9,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ORDI",
+      "ekosistem": "Solana",
+      "marketCap": 73499411,
+      "volume24h": 16533934,
+      "volatility": 0.05248759120786055,
+      "liquidityRatio": 0.22495328568007164,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "BAN",
+      "ekosistem": "Solana",
+      "marketCap": 70556943,
+      "volume24h": 7941349,
+      "volatility": 0.025982181013747822,
+      "liquidityRatio": 0.11255233946289311,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ORCA",
+      "ekosistem": "Solana",
+      "marketCap": 70172585,
+      "volume24h": 10064772,
+      "volatility": 0.02061970830420047,
+      "liquidityRatio": 0.1434288333542223,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ANSEM",
+      "ekosistem": "Solana",
+      "marketCap": 67806935,
+      "volume24h": 12222045,
+      "volatility": 0.22639075909534967,
+      "liquidityRatio": 0.18024771360038616,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 3,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 3,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "HOLO",
+      "ekosistem": "Solana",
+      "marketCap": 63672661,
+      "volume24h": 128873,
+      "volatility": 0.04458730331717666,
+      "liquidityRatio": 0.002023992683453264,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 10,
+      "totalAcuan": 10,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "DOG",
+      "ekosistem": "Solana",
+      "marketCap": 60693065,
+      "volume24h": 541591,
+      "volatility": 0.02359203951191046,
+      "liquidityRatio": 0.008923441253131638,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 9,
+      "totalAcuan": 9,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "USELESS",
+      "ekosistem": "Solana",
+      "marketCap": 57395801,
+      "volume24h": 6442167,
+      "volatility": 0.07190044259893963,
+      "liquidityRatio": 0.11224108537138457,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "JELLYJELLY",
+      "ekosistem": "Solana",
+      "marketCap": 56389265,
+      "volume24h": 5964383,
+      "volatility": 0.031111563283159203,
+      "liquidityRatio": 0.10577160386821853,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ARC",
+      "ekosistem": "Solana",
+      "marketCap": 53894659,
+      "volume24h": 2614998,
+      "volatility": 0.03033765178892181,
+      "liquidityRatio": 0.04852054078308576,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "IO",
+      "ekosistem": "Solana",
+      "marketCap": 50789375,
+      "volume24h": 6677200,
+      "volatility": 0.037675887330720366,
+      "liquidityRatio": 0.13146844197236135,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "SKR",
+      "ekosistem": "Solana",
+      "marketCap": 50405192,
+      "volume24h": 1854888,
+      "volatility": 0.03270814800800214,
+      "liquidityRatio": 0.036799542396346786,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "HYPE",
+      "ekosistem": "Solana",
+      "marketCap": 46739312,
+      "volume24h": 15299722,
+      "volatility": 0.036594819087370445,
+      "liquidityRatio": 0.3273416176943298,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "OZA",
+      "ekosistem": "Solana",
+      "marketCap": 42742875,
+      "volume24h": 546.62,
+      "volatility": 0.031445549431271355,
+      "liquidityRatio": 0.000012788564175900662,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 9,
+      "totalAcuan": 9,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "TROLL",
+      "ekosistem": "Solana",
+      "marketCap": 42651590,
+      "volume24h": 3322251,
+      "volatility": 0.1011048617757406,
+      "liquidityRatio": 0.07789278195724943,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 2,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 2,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 8,
+      "totalAcuan": 8,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ETH",
+      "ekosistem": "Ethereum",
+      "marketCap": 226771862225,
+      "volume24h": 11862269334,
+      "volatility": 0.02364492764413377,
+      "liquidityRatio": 0.05230926455165948,
+      "skorSistem": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 1,
+      "totalAcuan": 1,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "BNB",
+      "ekosistem": "Ethereum",
+      "marketCap": 75244609440,
+      "volume24h": 518576025,
+      "volatility": 0.012439729982369169,
+      "liquidityRatio": 0.006891869448980424,
+      "skorSistem": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "WBT",
+      "ekosistem": "Ethereum",
+      "marketCap": 16267039305,
+      "volume24h": 88513119,
+      "volatility": 0.026685303923634784,
+      "liquidityRatio": 0.005441255617596849,
+      "skorSistem": {
+        "marketCap": 0,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 0,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "LEO",
+      "ekosistem": "Ethereum",
+      "marketCap": 8971979237,
+      "volume24h": 243745,
+      "volatility": 0.009736507725912872,
+      "liquidityRatio": 0.000027167361131957108,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "AWETH",
+      "ekosistem": "Ethereum",
+      "marketCap": 4418113043,
+      "volume24h": 1579136,
+      "volatility": 0.023627139673861215,
+      "liquidityRatio": 0.00035742317696057195,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "WETH",
+      "ekosistem": "Ethereum",
+      "marketCap": 4236718722,
+      "volume24h": 341315451,
+      "volatility": 0.05619089910347744,
+      "liquidityRatio": 0.0805612723893262,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GRAM",
+      "ekosistem": "Ethereum",
+      "marketCap": 3974949568,
+      "volume24h": 24892525,
+      "volatility": 0.03331618085787203,
+      "liquidityRatio": 0.006262349892535794,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "SHIB",
+      "ekosistem": "Ethereum",
+      "marketCap": 2762420319,
+      "volume24h": 198066491,
+      "volatility": 0.04199110092028046,
+      "liquidityRatio": 0.07170034539555528,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "CRO",
+      "ekosistem": "Ethereum",
+      "marketCap": 2598686366,
+      "volume24h": 8312814,
+      "volatility": 0.028717060358784272,
+      "liquidityRatio": 0.003198852354312925,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "XAUT",
+      "ekosistem": "Ethereum",
+      "marketCap": 2473537859,
+      "volume24h": 132542255,
+      "volatility": 0.010029349985749376,
+      "liquidityRatio": 0.053584081811298444,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 2,
+      "totalAcuan": 2,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "UNI",
+      "ekosistem": "Ethereum",
+      "marketCap": 2333712561,
+      "volume24h": 165405855,
+      "volatility": 0.034708915502478496,
+      "liquidityRatio": 0.07087670425406774,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 2,
+      "totalAcuan": 2,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ONDO",
+      "ekosistem": "Ethereum",
+      "marketCap": 1903743611,
+      "volume24h": 149364391,
+      "volatility": 0.04609072224018238,
+      "liquidityRatio": 0.07845824938660818,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "OKB",
+      "ekosistem": "Ethereum",
+      "marketCap": 1811372510,
+      "volume24h": 20872347,
+      "volatility": 0.011546780907574829,
+      "liquidityRatio": 0.011522945658483025,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "PAXG",
+      "ekosistem": "Ethereum",
+      "marketCap": 1796628939,
+      "volume24h": 105176138,
+      "volatility": 0.010338223446122393,
+      "liquidityRatio": 0.05854082371540827,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 2,
+      "totalAcuan": 2,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "WLFI",
+      "ekosistem": "Ethereum",
+      "marketCap": 1746771917,
+      "volume24h": 26715116,
+      "volatility": 0.01290798358765874,
+      "liquidityRatio": 0.015293992157763777,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "HTX",
+      "ekosistem": "Ethereum",
+      "marketCap": 1590816512,
+      "volume24h": 47479491,
+      "volatility": 0.016854370149399823,
+      "liquidityRatio": 0.02984598829710915,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "AAVE",
+      "ekosistem": "Ethereum",
+      "marketCap": 1506247519,
+      "volume24h": 245446316,
+      "volatility": 0.036972920786145745,
+      "liquidityRatio": 0.16295217944189688,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 1,
+      "totalAcuan": 1,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "MNT",
+      "ekosistem": "Ethereum",
+      "marketCap": 1319476297,
+      "volume24h": 28686974,
+      "volatility": 0.021320619716672404,
+      "liquidityRatio": 0.021741181759174867,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "SKY",
+      "ekosistem": "Ethereum",
+      "marketCap": 1316799039,
+      "volume24h": 11344159,
+      "volatility": 0.03807763454244599,
+      "liquidityRatio": 0.008614950849762885,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "MORPHO",
+      "ekosistem": "Ethereum",
+      "marketCap": 1274189113,
+      "volume24h": 15096638,
+      "volatility": 0.039220468082213765,
+      "liquidityRatio": 0.01184803562200896,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "WLD",
+      "ekosistem": "Ethereum",
+      "marketCap": 1217298374,
+      "volume24h": 108437463,
+      "volatility": 0.05045411511576654,
+      "liquidityRatio": 0.08908043033334406,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 1,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 3,
+      "totalAcuan": 3,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "PEPE",
+      "ekosistem": "Ethereum",
+      "marketCap": 1183327530,
+      "volume24h": 225065721,
+      "volatility": 0.03819836883112242,
+      "liquidityRatio": 0.1901973167141645,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 1,
+      "totalAcuan": 1,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ICP",
+      "ekosistem": "Ethereum",
+      "marketCap": 1164528665,
+      "volume24h": 33113238,
+      "volatility": 0.022514099994148506,
+      "liquidityRatio": 0.02843488442596645,
+      "skorSistem": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 1,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "QNT",
+      "ekosistem": "Ethereum",
+      "marketCap": 899460819,
+      "volume24h": 8903537,
+      "volatility": 0.016246270839509535,
+      "liquidityRatio": 0.009898749130505483,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ENA",
+      "ekosistem": "Ethereum",
+      "marketCap": 793114779,
+      "volume24h": 127948751,
+      "volatility": 0.03790549692171702,
+      "liquidityRatio": 0.16132438127218407,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 2,
+      "totalAcuan": 2,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "POL",
+      "ekosistem": "Ethereum",
+      "marketCap": 780363603,
+      "volume24h": 30449243,
+      "volatility": 0.02112565291008425,
+      "liquidityRatio": 0.03901930187792216,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "RENDER",
+      "ekosistem": "Ethereum",
+      "marketCap": 731265933,
+      "volume24h": 26233476,
+      "volatility": 0.021245080778734656,
+      "liquidityRatio": 0.03587405732464225,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "NEXO",
+      "ekosistem": "Ethereum",
+      "marketCap": 714534637,
+      "volume24h": 6518862,
+      "volatility": 0.017597220621133246,
+      "liquidityRatio": 0.009123227430051091,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "RETH",
+      "ekosistem": "Ethereum",
+      "marketCap": 705936331,
+      "volume24h": 417949,
+      "volatility": 0.02248822002487944,
+      "liquidityRatio": 0.0005920491433100643,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 3,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 8,
+      "totalAcuan": 8,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GT",
+      "ekosistem": "Ethereum",
+      "marketCap": 696202270,
+      "volume24h": 2568164,
+      "volatility": 0.01202333456870245,
+      "liquidityRatio": 0.0036888187681433445,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GHO",
+      "ekosistem": "Ethereum",
+      "marketCap": 647815662,
+      "volume24h": 2099289,
+      "volatility": 0.00027536564045802463,
+      "liquidityRatio": 0.003240565369350394,
+      "skorSistem": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 2,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GLM",
+      "ekosistem": "Ethereum",
+      "marketCap": 98421247,
+      "volume24h": 5015148,
+      "volatility": 0.024487200905004478,
+      "liquidityRatio": 0.05095594856667483,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "FLUID",
+      "ekosistem": "Ethereum",
+      "marketCap": 95411476,
+      "volume24h": 3630686,
+      "volatility": 0.057797052401266404,
+      "liquidityRatio": 0.03805292772118943,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 1,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 8,
+      "totalAcuan": 8,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "CRCLON",
+      "ekosistem": "Ethereum",
+      "marketCap": 92689213,
+      "volume24h": 631821,
+      "volatility": 0.04853873242536308,
+      "liquidityRatio": 0.006816553723462945,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 10,
+      "totalAcuan": 10,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "GALA",
+      "ekosistem": "Ethereum",
+      "marketCap": 90986643,
+      "volume24h": 21646250,
+      "volatility": 0.02939841486962576,
+      "liquidityRatio": 0.23790579898634132,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 4,
+      "totalAcuan": 4,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "RAIL",
+      "ekosistem": "Ethereum",
+      "marketCap": 90697130,
+      "volume24h": 119175,
+      "volatility": 0.05628925917628924,
+      "liquidityRatio": 0.00131398865653191,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 10,
+      "totalAcuan": 10,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "NEX",
+      "ekosistem": "Ethereum",
+      "marketCap": 90110047,
+      "volume24h": 522102,
+      "volatility": 0.10741154754226909,
+      "liquidityRatio": 0.005794048692483758,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 2,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 2,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 11,
+      "totalAcuan": 11,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "RIF",
+      "ekosistem": "Ethereum",
+      "marketCap": 87945955,
+      "volume24h": 36320987,
+      "volatility": 0.1794634758951952,
+      "liquidityRatio": 0.41299212681242703,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 3,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 3,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 7,
+      "totalAcuan": 7,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ZK",
+      "ekosistem": "Ethereum",
+      "marketCap": 85896700,
+      "volume24h": 6927129,
+      "volatility": 0.02707893760650949,
+      "liquidityRatio": 0.08064487925612975,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "SENT",
+      "ekosistem": "Ethereum",
+      "marketCap": 84812095,
+      "volume24h": 10697352,
+      "volatility": 0.06037797419302804,
+      "liquidityRatio": 0.12613002897758863,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 1,
+        "volatility": 1,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "ATH",
+      "ekosistem": "Ethereum",
+      "marketCap": 80632383,
+      "volume24h": 8077359,
+      "volatility": 0.032155126220105135,
+      "liquidityRatio": 0.10017512442860581,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 0
+      },
+      "totalSistem": 5,
+      "totalAcuan": 5,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "BEAM",
+      "ekosistem": "Ethereum",
+      "marketCap": 78208922,
+      "volume24h": 4140956,
+      "volatility": 0.03956319572741858,
+      "liquidityRatio": 0.05294736066046275,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 2,
+        "volatility": 0,
+        "liquidityRatio": 1
+      },
+      "totalSistem": 6,
+      "totalAcuan": 6,
+      "levelSistem": "Medium",
+      "levelAcuan": "Medium",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "RSC",
+      "ekosistem": "Ethereum",
+      "marketCap": 77911364,
+      "volume24h": 277794,
+      "volatility": 0.04893825283191328,
+      "liquidityRatio": 0.003565513241431635,
+      "skorSistem": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "skorAcuan": {
+        "marketCap": 3,
+        "volume24h": 3,
+        "volatility": 1,
+        "liquidityRatio": 3
+      },
+      "totalSistem": 10,
+      "totalAcuan": 10,
+      "levelSistem": "High",
+      "levelAcuan": "High",
+      "cocok": true,
+      "skorCocok": true
+    },
+    {
+      "simbol": "BTC",
+      "ekosistem": "Bitcoin",
+      "marketCap": 1269503306219,
+      "volume24h": 26756509478,
+      "volatility": 0.01638352662686285,
+      "liquidityRatio": 0.02107636061042623,
+      "skorSistem": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "skorAcuan": {
+        "marketCap": 0,
+        "volume24h": 0,
+        "volatility": 0,
+        "liquidityRatio": 2
+      },
+      "totalSistem": 2,
+      "totalAcuan": 2,
+      "levelSistem": "Low",
+      "levelAcuan": "Low",
+      "cocok": true,
+      "skorCocok": true
+    }
+  ]
+}

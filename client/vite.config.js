@@ -1,0 +1,16 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// Konfigurasi Vite + plugin React + Tailwind v4
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  define: {
+    // Solana wallet adapter pakai `global` yang gak ada di browser
+    global: 'globalThis',
+  },
+  optimizeDeps: {
+    // Force pre-bundle `buffer` biar Vite gak externalize-nya
+    include: ['buffer'],
+  },
+})

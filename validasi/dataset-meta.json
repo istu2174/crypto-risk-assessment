@@ -1,0 +1,25 @@
+{
+  "dibangunPada": "2026-08-12T09:30:55.227Z",
+  "waktuMulai": "2026-08-12T09:26:24.390Z",
+  "durasiDetik": 271,
+  "sumberData": "CoinGecko API v3",
+  "targetPengambilan": 250,
+  "asetDiterimaDariAPI": 250,
+  "asetLolosSaring": 157,
+  "asetBerhasil": 156,
+  "asetGagal": 1,
+  "rincianGagal": {
+    "mantis": {
+      "symbol": "M",
+      "alasan": "riwayat harga hanya 0 titik (minimal 2)"
+    }
+  },
+  "sebaranEkosistem": {
+    "Bitcoin": 1,
+    "Ethereum": 134,
+    "Solana": 21
+  },
+  "metodeVolatilitas": "Standar deviasi populasi dari return harian, via calculateVolatility() di server/src/services/portfolioAnalyzer.js — fungsi identik dengan sistem produksi",
+  "jendelaVolatilitas": "30 hari, interval daily",
+  "metodeRasioLikuiditas": "volume24h / marketCap (identik portfolioScanService.js:71)"
+}

@@ -1,0 +1,68 @@
+{
+  "dijalankanPada": "2026-08-12T09:48:51.106Z",
+  "checksumAwal": "53b957d7f74cff0de21ba6f8e68c6ced50911ca93b5d3928a4395d93dd377123",
+  "checksumAkhir": "53b957d7f74cff0de21ba6f8e68c6ced50911ca93b5d3928a4395d93dd377123",
+  "kodeSumberUtuh": true,
+  "baseline": {
+    "lulus": 163,
+    "gagal": 0,
+    "total": 163
+  },
+  "mutationScore": "3/3",
+  "mutasi": [
+    {
+      "id": 1,
+      "nama": "scoreMarketCap: ambang 1e9 diubah menjadi 2e9",
+      "deskripsi": "Menggeser batas Small Cap / Mid Cap. Menguji apakah test mendeteksi ambang yang salah nilai.",
+      "testGagal": 7,
+      "testLulus": 156,
+      "testTotal": 163,
+      "tambahanGagalDariBaseline": 7,
+      "status": "TERTANGKAP",
+      "testPenangkap": [
+        "UJI 2 — Boundary Value Analysis › marketCap › Market Cap — ambang ke-2 = 1000000000 › tepat DI ambang sesuai dokumen (semantik operator)",
+        "UJI 2 — Boundary Value Analysis › marketCap › Market Cap — ambang ke-2 = 1000000000 › tepat di atas ambang sesuai dokumen",
+        "UJI 2 — Boundary Value Analysis › marketCap › Market Cap — ambang ke-2 = 1000000000 › skor benar-benar BERUBAH tepat di titik ambang ini",
+        "UJI 2 — Boundary Value Analysis › marketCap › Market Cap — ambang ke-2 = 1000000000 › semantik operator sesuai arah variabel",
+        "UJI 3 — Property-based testing (100.000 masukan acak per variabel) › marketCap › Properti 3 — perpindahan skor HANYA terjadi pada tiga ambang yang ditetapkan",
+        "UJI 3 — Property-based testing (100.000 masukan acak per variabel) › marketCap › Properti 3b — ketiga ambang yang ditetapkan semuanya terbukti aktif dan terdeteksi",
+        "UJI 3 — Property-based testing (100.000 masukan acak per variabel) › marketCap › Seluruh masukan uji cocok dengan skor acuan menurut dokumen skripsi"
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "scoreVolatility: operator '>' pada baris 0.08 diubah menjadi '>='",
+      "deskripsi": "Membalik semantik batas. Menguji apakah test mendeteksi kesalahan arah operator (off-by-one pada titik ambang).",
+      "testGagal": 2,
+      "testLulus": 161,
+      "testTotal": 163,
+      "tambahanGagalDariBaseline": 2,
+      "status": "TERTANGKAP",
+      "testPenangkap": [
+        "UJI 2 — Boundary Value Analysis › volatility › Volatilitas 30 Hari — ambang ke-2 = 0.08 › tepat DI ambang sesuai dokumen (semantik operator)",
+        "UJI 2 — Boundary Value Analysis › volatility › Volatilitas 30 Hari — ambang ke-2 = 0.08 › semantik operator sesuai arah variabel"
+      ]
+    },
+    {
+      "id": 3,
+      "nama": "scoreLiquidityRatio: nilai points dua bucket teratas ditukar",
+      "deskripsi": "Menukar skor 3 dan 2. Menguji apakah test mendeteksi pemetaan skor yang tertukar (bukan ambangnya yang salah).",
+      "testGagal": 9,
+      "testLulus": 154,
+      "testTotal": 163,
+      "tambahanGagalDariBaseline": 9,
+      "status": "TERTANGKAP",
+      "testPenangkap": [
+        "UJI 1 — Equivalence Partitioning › liquidityRatio › Rasio Likuiditas: nilai 0.005 menghasilkan skor 3",
+        "UJI 1 — Equivalence Partitioning › liquidityRatio › Rasio Likuiditas: nilai 0.03 menghasilkan skor 2",
+        "UJI 2 — Boundary Value Analysis › liquidityRatio › Rasio Likuiditas — ambang ke-1 = 0.01 › tepat di bawah ambang sesuai dokumen",
+        "UJI 2 — Boundary Value Analysis › liquidityRatio › Rasio Likuiditas — ambang ke-1 = 0.01 › tepat DI ambang sesuai dokumen (semantik operator)",
+        "UJI 2 — Boundary Value Analysis › liquidityRatio › Rasio Likuiditas — ambang ke-1 = 0.01 › tepat di atas ambang sesuai dokumen",
+        "UJI 2 — Boundary Value Analysis › liquidityRatio › Rasio Likuiditas — ambang ke-1 = 0.01 › semantik operator sesuai arah variabel",
+        "UJI 2 — Boundary Value Analysis › liquidityRatio › Rasio Likuiditas — ambang ke-2 = 0.05 › tepat di bawah ambang sesuai dokumen",
+        "UJI 3 — Property-based testing (100.000 masukan acak per variabel) › liquidityRatio › Properti 2 — skor tidak pernah bergerak melawan arah risiko variabel",
+        "UJI 3 — Property-based testing (100.000 masukan acak per variabel) › liquidityRatio › Seluruh masukan uji cocok dengan skor acuan menurut dokumen skripsi"
+      ]
+    }
+  ]
+}

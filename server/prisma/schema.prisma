@@ -1,0 +1,141 @@
+// Prisma schema buat sistem penilaian risiko portofolio crypto.
+// ERD bisa di-generate via tools eksternal (dbdiagram.io, eraser.io)
+// dari file ini buat dokumentasi BAB 3 skripsi.
+
+generator client {
+  // 'prisma-client-js' (legacy) emit JavaScript ke node_modules.
+  // Project ini ESM JS-only, jadi pakai ini biar gak perlu setup TypeScript.
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  // URL didefinisikan di prisma.config.mjs (Prisma 7 requirement)
+}
+
+// ================================================================
+// ENUMS
+// ================================================================
+
+enum ChainType {
+  SOLANA
+  ETHEREUM
+  BITCOIN
+}
+
+enum RiskLevel {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum ConcentrationLevel {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+// ================================================================
+// USER — dibikin saat first login (wallet signature)
+// ================================================================
+
+model User {
+  id            String    @id @default(uuid())
+  primaryWallet String    @unique // address wallet yang dipake login
+  chainType     ChainType // chain dari primaryWallet (SOLANA/ETHEREUM)
+  createdAt     DateTime  @default(now())
+  lastLoginAt   DateTime  @default(now())
+
+  trackedWallets TrackedWallet[]
+  scans          Scan[]
+
+  @@index([primaryWallet])
+}
+
+// ================================================================
+// TRACKED WALLET — additional addresses user mau dipantau
+// (termasuk BTC address yang gak bisa login)
+// ================================================================
+
+model TrackedWallet {
+  id        String    @id @default(uuid())
+  userId    String
+  address   String
+  chainType ChainType
+  label     String? // optional, contoh: "Trading wallet"
+  addedAt   DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, address, chainType])
+  @@index([userId])
+}
+
+// ================================================================
+// SCAN — satu kali user trigger "Scan Portfolio"
+// Snapshot dari kondisi portfolio pada timestamp tertentu.
+// ================================================================
+
+model Scan {
+  id               String             @id @default(uuid())
+  userId           String
+  // Address wallet yang di-scan (primary atau tracked). Nullable karena scan
+  // lama (sebelum fitur tracked wallet) gak nyimpen info ini.
+  scannedAddress   String?
+  scannedAt        DateTime           @default(now())
+  totalValueUsd    Float
+  hhi              Float // Herfindahl-Hirschman Index (0..1)
+  hhiLevel         ConcentrationLevel
+  overallRiskScore Float // weighted avg skor risiko (0..12)
+  overallRiskLevel RiskLevel
+  assetCount       Int
+
+  user           User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assetSnapshots AssetSnapshot[]
+
+  @@index([userId, scannedAt])
+}
+
+// ================================================================
+// ASSET SNAPSHOT — snapshot per aset di dalam Scan
+// ================================================================
+
+model AssetSnapshot {
+  id             String    @id @default(uuid())
+  scanId         String
+  coingeckoId    String // 'bitcoin', 'solana', dll.
+  symbol         String
+  name           String
+  chainType      ChainType
+  balance        Float // jumlah token (bisa fraksi)
+  priceUsd       Float
+  valueUsd       Float
+  marketCap      Float
+  volume24h      Float
+  volatility30d  Float
+  liquidityRatio Float
+  riskScore      Int // 0..12
+  riskLevel      RiskLevel
+  weight         Float // porsi di portfolio (0..1)
+
+  scan Scan @relation(fields: [scanId], references: [id], onDelete: Cascade)
+
+  @@index([scanId])
+  @@index([coingeckoId])
+}
+
+// ================================================================
+// PRICE CACHE — persistent cache CoinGecko data.
+// Survive restart, bisa share lintas user. Alternatif node-cache.
+// ================================================================
+
+model PriceCache {
+  coingeckoId   String   @id
+  symbol        String
+  name          String
+  priceUsd      Float
+  marketCap     Float?
+  volume24h     Float?
+  volatility30d Float?
+  updatedAt     DateTime @updatedAt
+}

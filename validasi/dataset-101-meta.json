@@ -1,0 +1,134 @@
+{
+  "dibangunPada": "2026-08-15T04:06:06.850Z",
+  "sumberUtama": "server/output/survey-20260728-1136.json",
+  "acuanTabelL63": "survey-20260728-1136.csv",
+  "waktuPengambilan": "2026-07-28T04:36:53.000Z",
+  "waktuPengambilanWIB": "2026-07-28 11:36:53 WIB",
+  "waktuPengambilanUTC": "2026-07-28 04:36:53 UTC",
+  "metodePenarikanSampel": "Stratified purposive sampling per tier kapitalisasi pasar (Large/Mid/Small/Micro Cap), kategori CoinGecko solana-ecosystem dan ethereum-ecosystem, menyaring aset wrapped, staked, dan stablecoin",
+  "batasPerEkosistem": 50,
+  "populasi": {
+    "solana-ecosystem": {
+      "total": 1512,
+      "tiers": {
+        "Large Cap": 3,
+        "Mid Cap": 17,
+        "Small Cap": 66,
+        "Micro Cap": 1424,
+        "unknown": 2
+      },
+      "pages": 0
+    },
+    "ethereum-ecosystem": {
+      "total": 1826,
+      "tiers": {
+        "Large Cap": 6,
+        "Mid Cap": 42,
+        "Small Cap": 135,
+        "Micro Cap": 1476,
+        "unknown": 167
+      },
+      "pages": 0
+    }
+  },
+  "jumlahAset": 101,
+  "asetTerklasifikasi": 89,
+  "asetGagal": 12,
+  "rincianGagal": [
+    {
+      "symbol": "JAAA",
+      "name": "Janus Henderson Anemoy AAA CLO Fund",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "ANTFUN",
+      "name": "AntFun",
+      "alasan": "histori harga hanya 14 hari"
+    },
+    {
+      "symbol": "M",
+      "name": "Mantis",
+      "alasan": "histori harga hanya 4 hari"
+    },
+    {
+      "symbol": "SWOP",
+      "name": "Swop",
+      "alasan": "histori harga hanya 21 hari"
+    },
+    {
+      "symbol": "TBB",
+      "name": "The Bitcoin Bull",
+      "alasan": "histori harga hanya 5 hari"
+    },
+    {
+      "symbol": "USYC",
+      "name": "Circle USYC",
+      "alasan": "histori harga hanya 17 hari"
+    },
+    {
+      "symbol": "BCAP",
+      "name": "Blockchain Capital",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "EUTBL",
+      "name": "Spiko EU T-Bills Money Market Fund",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "CLBTC",
+      "name": "clBTC",
+      "alasan": "histori harga hanya 23 hari"
+    },
+    {
+      "symbol": "USTB",
+      "name": "Invesco Short Duration US Government Securities Fund",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "NXM",
+      "name": "Nexus Mutual",
+      "alasan": "volume 24h nol / tidak tersedia"
+    },
+    {
+      "symbol": "FDIT",
+      "name": "Fidelity Digital Interest Token",
+      "alasan": "volume 24h nol / tidak tersedia"
+    }
+  ],
+  "gagalVolumeNol": 6,
+  "gagalHistoriKurang30Hari": 6,
+  "sebaranEkosistem": {
+    "Solana": 50,
+    "Ethereum": 50,
+    "Bitcoin": 1
+  },
+  "sebaranTier": {
+    "Large Cap": 5,
+    "Mid Cap": 22,
+    "Small Cap": 36,
+    "Micro Cap": 38
+  },
+  "disaringSebelumPenarikanSampel": {
+    "stablecoin (dipatok, volatilitas ~0)": 231,
+    "wrapped/staked (duplikat aset native)": 148
+  },
+  "duplikatDilewati": 313,
+  "marketCapTerkecil": 42651590,
+  "asetMarketCapTerkecil": "TROLL — TROLL",
+  "verifikasiSilang": {
+    "terhadapJSONRun": {
+      "jumlahBeda": 0,
+      "rincian": []
+    },
+    "terhadapTabelL63": {
+      "jumlahBeda": 0,
+      "rincian": []
+    },
+    "dampakPembulatanCSV": {
+      "jumlahBeda": 0,
+      "rincian": []
+    }
+  },
+  "catatanSatuan": "volatility dan liquidityRatio disimpan sebagai desimal presisi penuh (0,05 = 5%) langsung dari JSON hasil run — sesuai kontrak riskClassifier.js"
+}

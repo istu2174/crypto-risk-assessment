@@ -1,0 +1,419 @@
+{
+  "walletAddress": "DEMO-PORTFOLIO",
+  "chainType": "DEMO",
+  "scannedAt": "2026-06-26T11:14:42.020Z",
+  "summary": {
+    "totalAssetsOnChain": 10,
+    "classifiedCount": 10,
+    "unclassifiedCount": 0,
+    "totalValueUsd": 14964.3184,
+    "hhi": 0.30411890583229917,
+    "hhiLevel": "High",
+    "hhiLabel": "Terkonsentrasi",
+    "overallRiskScore": 1.5413602533343582,
+    "overallRiskLevel": "Low"
+  },
+  "classifiedAssets": [
+    {
+      "mint": "bitcoin",
+      "coingeckoId": "bitcoin",
+      "chainType": "BITCOIN",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+      "balance": 0.12,
+      "priceUsd": 59398,
+      "valueUsd": 7127.759999999999,
+      "marketCap": 1190723527032,
+      "volume24h": 47211367300,
+      "volatility": 0.022018490035805045,
+      "liquidityRatio": 0.039649310883844845,
+      "riskScore": 2,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 1190723527032,
+          "points": 0,
+          "bucket": "Large Cap (>= $10B)"
+        },
+        "volume24h": {
+          "value": 47211367300,
+          "points": 0,
+          "bucket": "Tinggi (>= $100M)"
+        },
+        "volatility": {
+          "value": 0.022018490035805045,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.039649310883844845,
+          "points": 2,
+          "bucket": "Rendah (1% – 5%)"
+        }
+      },
+      "weight": 0.4763170502974595
+    },
+    {
+      "mint": "ethereum",
+      "coingeckoId": "ethereum",
+      "chainType": "ETHEREUM",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "balance": 2,
+      "priceUsd": 1550,
+      "valueUsd": 3100,
+      "marketCap": 187046397230,
+      "volume24h": 17468509968,
+      "volatility": 0.03236285371258734,
+      "liquidityRatio": 0.09339132015742595,
+      "riskScore": 1,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 187046397230,
+          "points": 0,
+          "bucket": "Large Cap (>= $10B)"
+        },
+        "volume24h": {
+          "value": 17468509968,
+          "points": 0,
+          "bucket": "Tinggi (>= $100M)"
+        },
+        "volatility": {
+          "value": 0.03236285371258734,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.09339132015742595,
+          "points": 1,
+          "bucket": "Sedang (5% – 10%)"
+        }
+      },
+      "weight": 0.2071594520469439
+    },
+    {
+      "mint": "solana",
+      "coingeckoId": "solana",
+      "chainType": "SOLANA",
+      "symbol": "SOL",
+      "name": "Solana",
+      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
+      "balance": 35,
+      "priceUsd": 68.74,
+      "valueUsd": 2405.8999999999996,
+      "marketCap": 39912873118,
+      "volume24h": 4444154818,
+      "volatility": 0.03439079958132059,
+      "liquidityRatio": 0.1113464020708588,
+      "riskScore": 0,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 39912873118,
+          "points": 0,
+          "bucket": "Large Cap (>= $10B)"
+        },
+        "volume24h": {
+          "value": 4444154818,
+          "points": 0,
+          "bucket": "Tinggi (>= $100M)"
+        },
+        "volatility": {
+          "value": 0.03439079958132059,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.1113464020708588,
+          "points": 0,
+          "bucket": "Tinggi (>= 10%)"
+        }
+      },
+      "weight": 0.1607757824773362
+    },
+    {
+      "mint": "chainlink",
+      "coingeckoId": "chainlink",
+      "chainType": "ETHEREUM",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "image": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405",
+      "balance": 180,
+      "priceUsd": 7.17,
+      "valueUsd": 1290.6,
+      "marketCap": 5361528973,
+      "volume24h": 289268854,
+      "volatility": 0.02946490914358167,
+      "liquidityRatio": 0.053952679442137184,
+      "riskScore": 2,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 5361528973,
+          "points": 1,
+          "bucket": "Mid Cap ($1B – $10B)"
+        },
+        "volume24h": {
+          "value": 289268854,
+          "points": 0,
+          "bucket": "Tinggi (>= $100M)"
+        },
+        "volatility": {
+          "value": 0.02946490914358167,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.053952679442137184,
+          "points": 1,
+          "bucket": "Sedang (5% – 10%)"
+        }
+      },
+      "weight": 0.08624515768122121
+    },
+    {
+      "mint": "uniswap",
+      "coingeckoId": "uniswap",
+      "chainType": "ETHEREUM",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "image": "https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png?1720676669",
+      "balance": 120,
+      "priceUsd": 2.86,
+      "valueUsd": 343.2,
+      "marketCap": 1780565204,
+      "volume24h": 189312836,
+      "volatility": 0.0437121590822711,
+      "liquidityRatio": 0.10632176545667238,
+      "riskScore": 2,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 1780565204,
+          "points": 1,
+          "bucket": "Mid Cap ($1B – $10B)"
+        },
+        "volume24h": {
+          "value": 189312836,
+          "points": 0,
+          "bucket": "Tinggi (>= $100M)"
+        },
+        "volatility": {
+          "value": 0.0437121590822711,
+          "points": 1,
+          "bucket": "Sedang (4% – 8%)"
+        },
+        "liquidityRatio": {
+          "value": 0.10632176545667238,
+          "points": 0,
+          "bucket": "Tinggi (>= 10%)"
+        }
+      },
+      "weight": 0.022934556110487465
+    },
+    {
+      "mint": "jupiter-exchange-solana",
+      "coingeckoId": "jupiter-exchange-solana",
+      "chainType": "SOLANA",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "image": "https://coin-images.coingecko.com/coins/images/34188/large/jup.png?1704266489",
+      "balance": 800,
+      "priceUsd": 0.21969,
+      "valueUsd": 175.752,
+      "marketCap": 729595148,
+      "volume24h": 64704964,
+      "volatility": 0.05291409986952939,
+      "liquidityRatio": 0.08868612158040283,
+      "riskScore": 5,
+      "riskLevel": "Medium",
+      "breakdown": {
+        "marketCap": {
+          "value": 729595148,
+          "points": 2,
+          "bucket": "Small Cap ($100M – $1B)"
+        },
+        "volume24h": {
+          "value": 64704964,
+          "points": 1,
+          "bucket": "Sedang ($10M – $100M)"
+        },
+        "volatility": {
+          "value": 0.05291409986952939,
+          "points": 1,
+          "bucket": "Sedang (4% – 8%)"
+        },
+        "liquidityRatio": {
+          "value": 0.08868612158040283,
+          "points": 1,
+          "bucket": "Sedang (5% – 10%)"
+        }
+      },
+      "weight": 0.011744738069727253
+    },
+    {
+      "mint": "shiba-inu",
+      "coingeckoId": "shiba-inu",
+      "chainType": "ETHEREUM",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "image": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800",
+      "balance": 40000000,
+      "priceUsd": 0.00000417,
+      "valueUsd": 166.79999999999998,
+      "marketCap": 2454757590,
+      "volume24h": 89819808,
+      "volatility": 0.026801050369368314,
+      "liquidityRatio": 0.03659009279201373,
+      "riskScore": 4,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 2454757590,
+          "points": 1,
+          "bucket": "Mid Cap ($1B – $10B)"
+        },
+        "volume24h": {
+          "value": 89819808,
+          "points": 1,
+          "bucket": "Sedang ($10M – $100M)"
+        },
+        "volatility": {
+          "value": 0.026801050369368314,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.03659009279201373,
+          "points": 2,
+          "bucket": "Rendah (1% – 5%)"
+        }
+      },
+      "weight": 0.01114651503271943
+    },
+    {
+      "mint": "pepe",
+      "coingeckoId": "pepe",
+      "chainType": "ETHEREUM",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "image": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
+      "balance": 90000000,
+      "priceUsd": 0.00000233,
+      "valueUsd": 209.70000000000002,
+      "marketCap": 981164479,
+      "volume24h": 228953558,
+      "volatility": 0.03303454107025088,
+      "liquidityRatio": 0.2333488043037889,
+      "riskScore": 2,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 981164479,
+          "points": 2,
+          "bucket": "Small Cap ($100M – $1B)"
+        },
+        "volume24h": {
+          "value": 228953558,
+          "points": 0,
+          "bucket": "Tinggi (>= $100M)"
+        },
+        "volatility": {
+          "value": 0.03303454107025088,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.2333488043037889,
+          "points": 0,
+          "bucket": "Tinggi (>= 10%)"
+        }
+      },
+      "weight": 0.014013334546530367
+    },
+    {
+      "mint": "bonk",
+      "coingeckoId": "bonk",
+      "chainType": "SOLANA",
+      "symbol": "BONK",
+      "name": "Bonk",
+      "image": "https://coin-images.coingecko.com/coins/images/28600/large/bonk.jpg?1696527587",
+      "balance": 25000000,
+      "priceUsd": 0.00000406,
+      "valueUsd": 101.5,
+      "marketCap": 357362856,
+      "volume24h": 38609398,
+      "volatility": 0.035677050475683966,
+      "liquidityRatio": 0.1080397622521799,
+      "riskScore": 3,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 357362856,
+          "points": 2,
+          "bucket": "Small Cap ($100M – $1B)"
+        },
+        "volume24h": {
+          "value": 38609398,
+          "points": 1,
+          "bucket": "Sedang ($10M – $100M)"
+        },
+        "volatility": {
+          "value": 0.035677050475683966,
+          "points": 0,
+          "bucket": "Rendah (<= 4%)"
+        },
+        "liquidityRatio": {
+          "value": 0.1080397622521799,
+          "points": 0,
+          "bucket": "Tinggi (>= 10%)"
+        }
+      },
+      "weight": 0.006782801413795098
+    },
+    {
+      "mint": "dogwifcoin",
+      "coingeckoId": "dogwifcoin",
+      "chainType": "SOLANA",
+      "symbol": "WIF",
+      "name": "dogwifhat",
+      "image": "https://coin-images.coingecko.com/coins/images/33566/large/dogwifhat.jpg?1702499428",
+      "balance": 300,
+      "priceUsd": 0.143688,
+      "valueUsd": 43.1064,
+      "marketCap": 143532042,
+      "volume24h": 41903783,
+      "volatility": 0.042838983586465006,
+      "liquidityRatio": 0.29194723642265186,
+      "riskScore": 4,
+      "riskLevel": "Low",
+      "breakdown": {
+        "marketCap": {
+          "value": 143532042,
+          "points": 2,
+          "bucket": "Small Cap ($100M – $1B)"
+        },
+        "volume24h": {
+          "value": 41903783,
+          "points": 1,
+          "bucket": "Sedang ($10M – $100M)"
+        },
+        "volatility": {
+          "value": 0.042838983586465006,
+          "points": 1,
+          "bucket": "Sedang (4% – 8%)"
+        },
+        "liquidityRatio": {
+          "value": 0.29194723642265186,
+          "points": 0,
+          "bucket": "Tinggi (>= 10%)"
+        }
+      },
+      "weight": 0.002880612323779478
+    }
+  ],
+  "unclassifiedAssets": []
+}
