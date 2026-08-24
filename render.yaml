@@ -1,0 +1,49 @@
+# Blueprint Render — definisi service backend (Express + Prisma).
+# Dipakai lewat menu "New > Blueprint" di dashboard Render.
+# Env var yang bertanda `sync: false` = rahasia, TIDAK disimpan di file ini
+# dan bakal ditanyain Render pas pertama kali deploy.
+
+services:
+  - type: web
+    name: crypto-risk-api
+    runtime: node
+    plan: free
+    # Singapore = region terdekat dari Indonesia sekaligus sama dengan region
+    # database Neon, jadi latency query kecil.
+    region: singapore
+    # Monorepo: kode backend ada di subfolder server/
+    rootDir: server
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    # Endpoint ringan yang selalu 200 (gak nyentuh DB) — lihat src/server.js
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+      # Origin frontend yang diizinkan CORS. Sementara localhost, diupdate
+      # jadi URL Vercel di Fase 6.
+      - key: FRONTEND_URL
+        value: http://localhost:5173
+
+      - key: JWT_EXPIRES_IN
+        value: 7d
+
+      # Throttle enrich CoinGecko saat scan (biar gak kena rate limit free tier)
+      - key: SCAN_CONCURRENCY
+        value: "3"
+
+      # === Rahasia — diisi manual di dashboard, JANGAN ditulis di file ini ===
+      - key: DATABASE_URL
+        sync: false
+      - key: DIRECT_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: COINGECKO_API_KEY
+        sync: false
+      - key: HELIUS_API_KEY
+        sync: false
+      - key: ALCHEMY_API_KEY
+        sync: false
