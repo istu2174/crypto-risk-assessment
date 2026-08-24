@@ -7,6 +7,9 @@ node_modules/
 .env
 .env.local
 .env.*.local
+# Semua varian .env (termasuk backup), KECUALI .env.example yang emang buat dibagi
+.env.*
+!.env.example
 
 # Build artifacts
 dist/

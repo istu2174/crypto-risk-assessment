@@ -18,14 +18,18 @@ if (!process.env.DATABASE_URL) {
 // - idleTimeoutMillis pendek: koneksi nganggur dilepas balik ke pooler.
 // - connectionTimeoutMillis longgar: compute Neon di-suspend kalau idle, koneksi
 //   pertama setelah bangun butuh beberapa detik.
-// - ssl: Neon WAJIB TLS. Kalau connection string udah bawa sslmode=require, `pg`
-//   ngurus sendiri; opsi ini jaring pengaman kalau sslmode kelupaan ditulis.
+// - ssl: Neon WAJIB TLS. Normalnya connection string udah bawa `?sslmode=require`
+//   dan `pg` bakal verifikasi sertifikat sendiri (Neon pakai CA publik, jadi lolos).
+//   Override ssl cuma dipasang sebagai jaring pengaman kalau sslmode kelupaan
+//   ditulis di URL — biar koneksi tetap kebentuk, bukan langsung gagal.
+const sslmodeAda = /[?&]sslmode=/.test(process.env.DATABASE_URL);
+
 const adapter = new PrismaPg({
   connectionString: process.env.DATABASE_URL,
   max: env.DB_POOL_MAX,
   idleTimeoutMillis: env.DB_POOL_IDLE_TIMEOUT_MS,
   connectionTimeoutMillis: env.DB_POOL_CONNECT_TIMEOUT_MS,
-  ssl: env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : undefined,
+  ssl: sslmodeAda ? undefined : { rejectUnauthorized: false },
 });
 
 // Singleton — satu PrismaClient sepanjang lifetime aplikasi.
