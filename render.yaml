@@ -5,7 +5,7 @@
 
 services:
   - type: web
-    name: crypto-risk-api
+    name: crypto-risk-assessment
     runtime: node
     plan: free
     # Singapore = region terdekat dari Indonesia sekaligus sama dengan region
@@ -22,10 +22,10 @@ services:
       - key: NODE_ENV
         value: production
 
-      # Origin frontend yang diizinkan CORS. Sementara localhost, diupdate
-      # jadi URL Vercel di Fase 6.
+      # Origin frontend yang diizinkan CORS. Boleh lebih dari satu (pisah koma):
+      # domain utama Vercel + alias yang dibikin otomatis sama Vercel.
       - key: FRONTEND_URL
-        value: http://localhost:5173
+        value: https://crypto-risk-assessment.vercel.app,https://crypto-risk-assessment-istu.vercel.app
 
       - key: JWT_EXPIRES_IN
         value: 7d
